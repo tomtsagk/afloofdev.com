@@ -1,12 +1,16 @@
 #!/bin/sh
 
-# Clean site
-rm -rf _site/*
+# get destination from first argument
+DEST=${1:-_site}
+
+# Clean site and make sure folder exists
+rm -rf $DEST
+mkdir -p $DEST
 
 # get data
-cp logo.png _site/
-cp favicon.ico _site/
-cp style.css _site/
+cp logo.png $DEST
+cp favicon.ico $DEST
+cp style.css $DEST
 
 # Get template
 TEMPLATE=$(cat template.md)
@@ -36,7 +40,7 @@ done
 cd ..
 
 # generate index page
-gen_page "$CONTENTS" _site/index.html
+gen_page "$CONTENTS" $DEST/index.html
 
 # generate pages
 cd pages
@@ -46,13 +50,13 @@ for i in *; do
 ---
 
 "
-	gen_page "$PAGE" ../_site/${i/.md/.html}
+	gen_page "$PAGE" ../$DEST/${i/.md/.html}
 done
 cd ..
 
 # copy license
-cp LICENSE _site/LICENSE
-cp .gitlab-ci.yml _site/.gitlab-ci.yml
+cp LICENSE $DEST/LICENSE
 
+# remove temp files
 rm temp.md
 rm pages/temp.md
