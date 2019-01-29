@@ -1,0 +1,55 @@
+
+/* Body */
+body {
+background-color: #222;
+padding: 8px;
+margin: 0px;
+text-align: center;
+color: #c9f;
+}
+
+/* horizontal lines */
+hr {
+padding: 0px;
+margin: 0px;
+height: 2px;
+background: #c9f;
+border: 0px;
+}
+
+/* images */
+img {
+}
+
+#icon {
+width: 150px;
+}
+
+a {
+color: #6696ff;
+}
+
+a:visited {
+color: #c9f;
+}
+
+a:hover {
+color: #3363cc;
+}
+
+/* this makes the point on ul appear next to the text */
+ul {
+	display: inline-block;
+        text-align:left;
+}
+
+input[type=checkbox]+ p {
+  color: #ccc;
+  font-style: italic;
+  visibility: visible;
+} 
+input[type=checkbox]:checked+ p {
+  color: #f00;
+  font-style: normal;
+  visibility: hidden;
+} 
