@@ -50,7 +50,9 @@ for i in *; do
 ---
 
 "
-	gen_page "$PAGE" ../$DEST/${i/.md/.html}
+	cd ..
+	gen_page "$PAGE" $DEST/${i/.md/.html}
+	cd pages
 done
 cd ..
 
@@ -59,4 +61,3 @@ cp LICENSE $DEST/LICENSE
 
 # remove temp files
 rm temp.md
-rm pages/temp.md
