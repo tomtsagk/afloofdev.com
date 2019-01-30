@@ -12,11 +12,7 @@ and when i compiled and run the game i got a checkers thingy! no that's not a te
 
 ##undefined behaviour
 
-<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/QxkwhkOYOoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
-<video width="400" autoplay loop muted>
-<source src="https://s1.webmshare.com/KwL9r.webm" type="video/webm"></source>
-browser has no video tag
-</video>
+<iframe src='https://my.mixtape.moe/kdrkti.webm' frameborder='0' scrolling='no' allowfullscreen width='640' height='364'></iframe>
 
 here i was trying to make a font. but i did something wrong (with pointers obviously) which
 brought some undefined behavior. i'm not sure why visually it's behaving like this, but i loved it!
@@ -27,10 +23,7 @@ brought some undefined behavior. i'm not sure why visually it's behaving like th
 
 ##manual matrix rotation
 
-<video width="400" autoplay loop muted>
-<source src="https://s1.webmshare.com/5EQ5B.webm" type="video/webm"></source>
-browser has no video tag
-</video>
+<iframe src='https://my.mixtape.moe/safxdi.webm' frameborder='0' scrolling='no' allowfullscreen width='640' height='364'></iframe>
 
 my inner perfectionist wanted to do matrix rotation manually (just so I could understand what is happening).
 i learned how to do euler's rotation for 1 axis. tried to study quaternions. gave up (for now).
@@ -43,10 +36,7 @@ at least my curiosity is satisfied.
 
 ##undefined shader colors
 
-<video width="400" autoplay loop muted>
-<source src="https://s1.webmshare.com/9Vd5D.webm" type="video/webm"></source>
-browser has no video tag
-</video>
+<iframe src='https://my.mixtape.moe/jnexix.webm' frameborder='0' scrolling='no' allowfullscreen width='640' height='364'></iframe>
 
 the only thing i did was to supply to the shaders (that expect colors) an uninitialized pointer.
 i was expecting that it would be random colors (like in the video) but I thought it wouldn't change. 
