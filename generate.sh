@@ -1,16 +1,13 @@
 #!/bin/sh
 
-# get destination from first argument
-DEST=${1:-_site}
-
 # Clean site and make sure folder exists
-rm -rf $DEST
-mkdir -p $DEST
+rm -rf _site
+mkdir -p _site
 
 # get data
-cp logo.png $DEST
-cp favicon.ico $DEST
-cp style.css $DEST
+cp logo.png _site
+cp favicon.ico _site
+cp style.css _site
 
 # Get template
 TEMPLATE=$(cat template.md)
@@ -40,7 +37,7 @@ done
 cd ..
 
 # generate index page
-gen_page "$CONTENTS" $DEST/index.html
+gen_page "$CONTENTS" _site/index.html
 
 # generate pages
 cd pages
@@ -51,13 +48,22 @@ for i in *; do
 
 "
 	cd ..
-	gen_page "$PAGE" $DEST/${i/.md/.html}
+	gen_page "$PAGE" _site/${i/.md/.html}
 	cd pages
 done
 cd ..
 
 # copy license
-cp LICENSE $DEST/LICENSE
+cp LICENSE _site/LICENSE
 
 # remove temp files
 rm temp.md
+
+# if destination exists, move files there
+# this is made in such a way to reduce site downtime when updating
+if [ ! -z "$1" ]
+then
+	mv $1 _site_temp
+	mv _site $1
+	rm -rf _site_temp
+fi
