@@ -14,4 +14,4 @@
 
 @CONTENT@
 
-*this is the home of dark dimension*
+*this is the home of dark dimension* - [privacy policy](privacy_policy.html)
