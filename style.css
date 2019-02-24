@@ -53,3 +53,9 @@ input[type=checkbox]:checked+ p {
   font-style: normal;
   visibility: hidden;
 } 
+
+code {
+	background: #111;
+	padding-left: 2px;
+	padding-right: 2px;
+}
