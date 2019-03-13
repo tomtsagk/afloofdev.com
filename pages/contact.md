@@ -3,7 +3,6 @@
 ##Tom Tsagk
 location: Royal Leamington Spa, UK<br>
 e-mail: tomtsagk@gmail.com<br>
-pgp key: <a href="https://keyserver.pgp.com/vkd/DownloadKey.event?keyid=0x88CB94B0ECAD5E51">0x88CB94B0ECAD5E51</a><br>
 
 * video game enthusiast
 * love C
