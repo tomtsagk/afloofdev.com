@@ -2,7 +2,7 @@
 
 web | mouse/touch | javascript/pixijs | 28.01.2018
 
-<img id="icon" src="https://i.imgur.com/C7QT7pr.png"/>
+<img id="icon" src="images/icon_the-collector.png"/>
 
 small idle-like game.
 the game was completed in about 7 days in order to practise my javascript and pixijs skills.
@@ -15,7 +15,7 @@ the game was completed in about 7 days in order to practise my javascript and pi
 linux | keyboard | C++/OpenGL | 16.03.2016
 | dependencies: opengl, freeglut, glew
 
-<img id="icon" src="https://lh5.ggpht.com/HGVRkxe7z53CWUmzhqDkAknlD_4-ymE4hqx8BYCZLv0m32f8teCeXRY9VXDN-_rkDw=w300"/>
+<img id="icon" src="images/icon_dargite.png"/>
 
 pong clone. pick from 12 available characters, 
 and some available stages. moddable enough to allow adding new characters,
@@ -30,7 +30,7 @@ and new stages.
 
 android | java (android) | 8.11.2015
 
-<img id="icon" src="https://lh3.googleusercontent.com/T1DeHhzsCm7K99y4bFKBZ1snwi2jzniLtv3EDbJYBafxWcAmJ3vWyEMFs0GuuCfM1A=w300"/>
+<img id="icon" src="images/icon_blemish.png"/>
 
 puzzle game containing 27 different puzzles of increasing difficulty. 
 includes a random mode for extra fun. the game is made in such a way 
@@ -44,7 +44,7 @@ that makes the user explore the game to understand how it works.
 
 android | java (android) | 15.09.2014
 
-<img id="icon" src="https://lh5.ggpht.com/6puVdXW2JY9ZkEIUXqf5TUaFBvK1YGP0PAajBMzD1GIQ2b2mbL-_HYMr420YWC57DqE=w300"/>
+<img id="icon" src="images/icon_ritle.png"/>
 
 infinite runner. jump at the right time in order to avoid obstacles, and
 collect the right items for the best score.
@@ -57,9 +57,7 @@ collect the right items for the best score.
 
 android | java (android) | 08.10.2014
 
-<img id="icon" src="
-https://lh5.ggpht.com/HGVRkxe7z53CWUmzhqDkAknlD_4-ymE4hqx8BYCZLv0m32f8teCeXRY9VXDN-_rkDw=w300
-"/>
+<img id="icon" src="images/icon_dargite.png"/>
 
 2d pong clone. select from 12 characters with different abilities. supports game controllers
 and multiplayer on the same device.
@@ -72,9 +70,7 @@ and multiplayer on the same device.
 
 android | java (android) | 29.05.2014
 
-<img id="icon" src="
-https://lh5.ggpht.com/xRZT36p8owz1ss1piZZoUDnuBTxvvJCHocMxnAoPTrewsEIi6NE6daT-5bVfZULSBdw6=w300-rw
-"/>
+<img id="icon" src="images/icon_town-wars.png"/>
 
 keep attacking the enemy's field until you destroy all their structures.
 each character has different structure formation, which you can use as clues of where to attack next.
@@ -88,9 +84,7 @@ play against a friend on the same device is available.
 
 android | java (android) | 06.05.2014
 
-<img id="icon" src="
-https://lh3.ggpht.com/GaF1-MD7KSPh9rhX2euqdnHfK9TCue_utBvO9HZrsTdSvI7Htgja9qfsC7DAsQ3leNo=w300-rw
-"/>
+<img id="icon" src="images/icon_yarn-chase.png"/>
 
 launcher-type game.
 throw the yarn and let the cat chase it.
@@ -104,9 +98,7 @@ earn money and buy upgrades to launch further next time.
 
 android | java (android) | 13.01.2014
 
-<img id="icon" src="
-https://lh4.ggpht.com/4af9n6cv2prV1DDL5QcRQWE53XhZBUc1fs_Wg2Ptk8JyhEVUHEtMUwj6r8UZGDuoJKM2=w300-rw
-"/>
+<img id="icon" src="images/icon_laughing-veil.png"/>
 
 text-based role playing fantasy game.
 you live in a world where magic is real.

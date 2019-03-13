@@ -98,6 +98,9 @@ cd ..
 # copy license
 cp LICENSE _site/LICENSE
 
+# copy images
+cp -r images _site/images
+
 # remove temp files
 rm temp.md
 

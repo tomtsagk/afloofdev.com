@@ -2,7 +2,7 @@
 
 hand-drawn | gimp | 2016.08
 
-<img src="http://s3.amazonaws.com/media.drunkduck.com/users/tomtsagk/comics/Laughing_Veil/web/WbKrmX4DjL.png" style="width:300px;"/>
+<img src="images/icon_comic_laughing-veil.png" style="width:300px;"/>
 
 * chapter 1 - [theduckwebcomics.com](http://www.theduckwebcomics.com/Laughing_Veil/)
 
@@ -11,7 +11,7 @@ hand-drawn | gimp | 2016.08
 
 ##just cause
 
-![just-cause](https://tomtsagk.gitlab.io/just-cause/logo.png)
+![just-cause](images/icon_just-cause.png)
 
 this is a page i manage, it has one-page webcomics.
 
