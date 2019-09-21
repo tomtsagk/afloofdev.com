@@ -2,6 +2,7 @@
 <title>dark dimension</title>
 <link rel="stylesheet" href="style.css"/>
 <link rel="shortcut icon" href="favicon.ico"> 
+<meta charset="UTF-8">
 </head>
 
 <img src="logo.png" style="width: 100px;"/>
