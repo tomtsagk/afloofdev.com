@@ -1,3 +1,16 @@
+##Shuffled Nightmares
+
+linux/windows | keyboard | avdl | 28.01.2020
+| dependencies: opengl, freeglut, glew, SDL2, SDL2_mixer
+
+<img id="icon" src="images/icon_shuffled-nightmares.png"/>
+
+puzzle game. rotate the blocks in the right way,
+to reveal the complete image.
+
+[itch.io](https://darkdimension.itch.io/shuffled-nightmares)
+
+---
 ##the collector
 
 web | mouse/touch | javascript/pixijs | 28.01.2018
@@ -7,7 +20,7 @@ web | mouse/touch | javascript/pixijs | 28.01.2018
 small idle-like game.
 the game was completed in about 7 days in order to practise my javascript and pixijs skills.
 
-[itch.io](https://t0mkun.itch.io/the-collector)
+[itch.io](https://darkdimension.itch.io/the-collector)
 
 ---
 ##dargite3d
