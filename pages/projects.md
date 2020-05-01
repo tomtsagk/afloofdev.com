@@ -8,16 +8,6 @@ the aim is to make video games spending as little time as possible.
 
 ---
 
-##inactive projects:
-
-<!--
-<input type="checkbox" id="chk">
-<p> haha </p>
-<label for="chk">uuuh</label> 
--->
-
----
-
 ##interpret world project
 
 04.2017 - 07.2017 | C program | unfinished
@@ -67,6 +57,7 @@ very small in size, and unique project.
 **update**: project has been abandoned, there are a few bugs, but the launcher kinda works
 
 ---
+
 ##tta - text to animation
 
 03.2016 - 03.2016 | C program | unfinished

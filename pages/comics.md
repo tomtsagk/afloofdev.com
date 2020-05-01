@@ -13,6 +13,5 @@ hand-drawn | gimp | 2016.08
 
 ![just-cause](images/icon_just-cause.png)
 
-this is a page i manage, it has one-page webcomics.
-
-[tomtsagk.gitlab.io/just-cause](https://tomtsagk.gitlab.io/just-cause)
+this is a page i used to manage, it had one-page webcomics.
+it is now abandon, in favour of including such art in video games.

@@ -1,14 +1,16 @@
 ##Shuffled Nightmares
 
 linux/windows | keyboard | avdl | 28.01.2020
-| dependencies: opengl, freeglut, glew, SDL2, SDL2_mixer
 
-<img id="icon" src="images/icon_shuffled-nightmares.png"/>
+<img id="icon_light" src="images/icon_shuffled-nightmares.png"/>
 
-puzzle game. rotate the blocks in the right way,
-to reveal the complete image.
+A puzzle game where you have to rotate parts of an image in such a way to uncover a nightmare.
+There's a total of 12 levels, plus a random mode for extra challenge.
 
-[itch.io](https://darkdimension.itch.io/shuffled-nightmares)
+[Steam](https://store.steampowered.com/app/1289510) |
+[itch.io](https://darkdimension.itch.io/shuffled-nightmares) |
+[GameJolt](https://gamejolt.com/games/shuffled_nightmares/484001) |
+[indiedb](https://www.indiedb.com/games/shuffled-nightmares)
 
 ---
 ##the collector
@@ -34,7 +36,7 @@ pong clone. pick from 12 available characters,
 and some available stages. moddable enough to allow adding new characters,
 and new stages.
 
-[gitlab](https://gitlab.com/tomtsagk/dargite3d)
+[notabug](https://notabug.org/tomtsagk/dargite3d)
 | [aur](https://aur.archlinux.org/packages/dargite3d)
 
 ---

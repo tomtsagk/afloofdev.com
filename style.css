@@ -6,6 +6,7 @@ padding: 8px;
 margin: 0px;
 text-align: center;
 color: #c9f;
+visibility:none;
 }
 
 /* horizontal lines */
@@ -23,6 +24,11 @@ img {
 
 #icon {
 width: 150px;
+}
+
+#icon_light {
+width: 150px;
+background-color: #cc99ff;
 }
 
 #icon_contact {

@@ -11,21 +11,7 @@ e-mail: tomtsagk@protonmail.com<br>
 
 find me on:
 
-<div>
-
-<!-- Stack Exchange -->
-<a href="https://stackexchange.com/users/3568134" target="_blank">
-<img src="images/icon_stack-exchange.png" class="icon_contact" title="StackExchange.com">
-</a>
-
-<!-- NotABug -->
-<a href="https://notabug.org/tomtsagk" target="_blank">
-<img src="images/icon_notabug.png" class="icon_contact" title="NotABug.org">
-</a>
-
-<!-- LinkedIn -->
-<a href="www.linkedin.com/in/tom-tsagkatos" target="_blank">
-<img src="images/icon_linkedin.png" class="icon_contact" title="LinkedIn.com">
-</a>
-
-</div>
+[Stack Exchange](https://stackexchange.com/users/3568134) ([GameDev](https://gamedev.stackexchange.com/users/50867/tomtsagk)) |
+[NotABug](https://notabug.org/tomtsagk) |
+[LinkedIn](https://linkedin.com/in/tom-tsagkatos) |
+[Itch.io](https://darkdimension.itch.io/)
