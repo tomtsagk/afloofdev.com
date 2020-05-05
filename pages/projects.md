@@ -49,7 +49,7 @@ lots of limitations (especially on rotations) but I find it creative
 01.2015 - 08.2015 | android launcher |
 [google play](https://play.google.com/store/apps/details?id=com.darkdimension.darkdimensionlauncher)
 
-<img src="images/icon_dd-launcher.png" style="width:150px;"/>
+<img src="@DIR_IMAGES@icon_dd-launcher.png" style="width:150px;"/>
 
 android launcher, focused on launching apps fast and with little power consumption.
 very small in size, and unique project.

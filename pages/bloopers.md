@@ -1,6 +1,6 @@
 ##checkers error
 
-<img src="images/icon_bloopers_checkers.png" style="width:400px"/>
+<img src="@DIR_IMAGES@icon_bloopers_checkers.png" style="width:400px"/>
 
 i was experimenting with giving different colors to each vertex.
 then i decided to edit the colors to give some sort of "fake lighting" on them. one thing led to another,

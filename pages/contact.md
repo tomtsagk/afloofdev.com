@@ -1,4 +1,4 @@
-<img id="icon" src="images/icon_tomtsagk.png"/>
+<img id="icon" src="@DIR_IMAGES@icon_tomtsagk.png"/>
 
 ##Tom Tsagk
 location: Royal Leamington Spa, UK<br>
