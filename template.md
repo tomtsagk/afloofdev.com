@@ -17,4 +17,4 @@
 
 ---
 
-[privacy policy](privacy_policy.html)
+*this is the home of dark dimension* - [privacy policy](privacy_policy.html)

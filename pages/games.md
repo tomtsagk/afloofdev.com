@@ -1,4 +1,4 @@
-##Shuffled Nightmares
+##[Shuffled Nightmares](shuffled_nightmares.html)
 
 linux/windows | keyboard | avdl | 28.01.2020
 
