@@ -13,8 +13,9 @@ There is an extra random mode, which uses the same nightmares, but in new and ch
 
 ###Controls
 
-awsd: move selection around
-Space: confirm choice
+`awsd`: move selection around
+
+`<Space>`: confirm choice
 
 ###Where to find it
 

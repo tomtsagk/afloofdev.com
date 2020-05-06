@@ -65,7 +65,7 @@ ${OUT}/pages/%.html: pages/%.md ${TEMPLATE}
 	mkdir -p ${OUT}/pages
 	cat ${TEMPLATE} | sed "s/@STYLE_PREFIX@/..\//g" | sed "s/@ROOT@/..\//g" | sed "/@CONTENT@/Q" | markdown > $@
 	cat $< | sed "s/@DIR_IMAGES@/..\/images\//g" | markdown >> $@
-	cat ${TEMPLATE} | sed "1,/@CONTENT@/d" | markdown >> $@
+	cat ${TEMPLATE} | sed "s/@STYLE_PREFIX@/..\//g" | sed "s/@ROOT@/..\//g" | sed "1,/@CONTENT@/d" | markdown >> $@
 
 # build images
 ${OUT}/images/%: images/%
