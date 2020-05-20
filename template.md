@@ -7,7 +7,7 @@
 
 <img src="@ROOT@logo.png" style="width: 100px;"/>
 
-##dark dimension
+#dark dimension
 
 ####[home](@ROOT@index.html) | [games](@ROOT@pages/games.html) | [comics](@ROOT@pages/comics.html) | [sounds](@ROOT@pages/sounds.html) | [contact](@ROOT@pages/contact.html) | [bloopers](@ROOT@pages/bloopers.html) | [memories](@ROOT@pages/projects.html)
 

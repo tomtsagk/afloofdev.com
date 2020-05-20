@@ -11,7 +11,8 @@ e-mail: tomtsagk@protonmail.com<br>
 
 find me on:
 
-[Stack Exchange](https://stackexchange.com/users/3568134) ([GameDev](https://gamedev.stackexchange.com/users/50867/tomtsagk)) |
 [NotABug](https://notabug.org/tomtsagk) |
-[LinkedIn](https://linkedin.com/in/tom-tsagkatos) |
-[Itch.io](https://darkdimension.itch.io/)
+[Itch.io](https://darkdimension.itch.io/) |
+[Patreon](https://www.patreon.com/darkdimension) |
+[Stack Exchange](https://stackexchange.com/users/3568134) ([GameDev](https://gamedev.stackexchange.com/users/50867/tomtsagk)) |
+[LinkedIn](https://linkedin.com/in/tom-tsagkatos)
