@@ -4,8 +4,7 @@ linux/windows | keyboard | avdl | 28.01.2020
 
 <img id="icon_light" src="@DIR_IMAGES@icon_shuffled-nightmares.png"/>
 
-A puzzle game where you have to rotate parts of an image in such a way to uncover a nightmare.
-There's a total of 12 levels, plus a random mode for extra challenge.
+The aim of this game is to rotate pieces of a shuffled puzzle, to reveal a Nightmare. Each level is more challenging than the previous one, with more parts of the puzzle shuffled, and introducing new behavior.
 
 [Steam](https://store.steampowered.com/app/1289510) |
 [itch.io](https://darkdimension.itch.io/shuffled-nightmares) |

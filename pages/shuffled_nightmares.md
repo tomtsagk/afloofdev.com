@@ -6,10 +6,12 @@ linux/windows | keyboard | avdl | 28.01.2020
 
 ###Description
 
-The aim of this puzzle is to use the "Control Points" to rotate the parts of each nightmare, so that it shows the complete image.
-Each of the 12 level is more difficult than the previous one. The Control Points start appearing closer to each other, and their behaviour changes, to pose a bigger challenge.
+The aim of this game is to rotate pieces of a shuffled puzzle, to reveal a Nightmare. Each level is more challenging than the previous one, with more parts of the puzzle shuffled, and introducing new behavior.
 
-There is an extra random mode, which uses the same nightmares, but in new and challenging patterns.
+**Contains:**
+
+* 12 levels
+* Random mode, with new challenging patterns to solve
 
 ###Controls
 
