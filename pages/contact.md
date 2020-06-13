@@ -13,6 +13,8 @@ find me on:
 
 [NotABug](https://notabug.org/tomtsagk) |
 [Itch.io](https://darkdimension.itch.io/) |
+[GameJolt.com](https://gamejolt.com/@DarkDimension) |
+[IndieDB.com](https://www.indiedb.com/members/darkdimension) |
 [Patreon](https://www.patreon.com/darkdimension) |
 [Stack Exchange](https://stackexchange.com/users/3568134) ([GameDev](https://gamedev.stackexchange.com/users/50867/tomtsagk)) |
 [LinkedIn](https://linkedin.com/in/tom-tsagkatos)

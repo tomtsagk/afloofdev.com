@@ -2,7 +2,7 @@
 
 linux/windows | keyboard | avdl | 28.01.2020
 
-<img id="icon_light" src="@DIR_IMAGES@icon_shuffled-nightmares.png"/>
+<img id="icon" src="@DIR_IMAGES@icon_shuffled-nightmares.png"/>
 
 The aim of this game is to rotate pieces of a shuffled puzzle, to reveal a Nightmare. Each level is more challenging than the previous one, with more parts of the puzzle shuffled, and introducing new behavior.
 

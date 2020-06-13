@@ -1,8 +1,25 @@
 ##Shuffled Nightmares
 
-linux/windows | keyboard | avdl | 28.01.2020
+<!--linux/windows | keyboard | avdl | 10.04.2020-->
 
-<img id="icon_light" src="@DIR_IMAGES@icon_shuffled-nightmares.png"/>
+<img id="icon" src="@DIR_IMAGES@icon_shuffled-nightmares.png"/>
+
+* **Developer:** Dark Dimension
+* **Release Date:** 10th of April, 2020
+* **Supported Platforms:** Linux, Windows
+* **Price:** $1.00
+* **File Size:** ~12MB compressed
+* **Languages:** English
+
+###Screenshots
+
+<img id="screenshot" src="@DIR_IMAGES@shuffled_nightmares_screenshot_0.png"/>
+<img id="screenshot" src="@DIR_IMAGES@shuffled_nightmares_screenshot_1.png"/>
+<img id="screenshot" src="@DIR_IMAGES@shuffled_nightmares_screenshot_2.png"/>
+<img id="screenshot" src="@DIR_IMAGES@shuffled_nightmares_screenshot_3.png"/>
+<img id="screenshot" src="@DIR_IMAGES@shuffled_nightmares_screenshot_4.png"/>
+
+Download all assets in a compressed file: [shuffled_nightmares_assets.zip](@DIR_FILES@shuffled_nightmares_assets.zip)
 
 ###Description
 

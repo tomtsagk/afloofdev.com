@@ -35,6 +35,10 @@ background-color: #cc99ff;
 width: 100px;
 }
 
+#screenshot {
+width: 300px;
+}
+
 a {
 color: #6696ff;
 }
