@@ -7,14 +7,20 @@ e-mail: tomtsagk@protonmail.com<br>
 * video game enthusiast
 * enjoy C
 * `ed` is the standard editor!
-* open-source fan
+* libre software fan
 
-find me on:
+####Like what I do? Here's how to help:
+
+<!-- Liberapay Donation Button -->
+<a href="https://liberapay.com/DarkDimension/donate" target="_blank">
+	<img src="@DIR_IMAGES@liberapay_donate.png"/>
+</a>
+
+####Find me on
 
 [NotABug](https://notabug.org/tomtsagk) |
 [Itch.io](https://darkdimension.itch.io/) |
 [GameJolt.com](https://gamejolt.com/@DarkDimension) |
 [IndieDB.com](https://www.indiedb.com/members/darkdimension) |
-[Patreon](https://www.patreon.com/darkdimension) |
-[Stack Exchange](https://stackexchange.com/users/3568134) ([GameDev](https://gamedev.stackexchange.com/users/50867/tomtsagk)) |
-[LinkedIn](https://linkedin.com/in/tom-tsagkatos)
+[Mastodon](https://hostux.social/@darkdimension) |
+[Stack Exchange](https://stackexchange.com/users/3568134) ([GameDev](https://gamedev.stackexchange.com/users/50867/tomtsagk))
