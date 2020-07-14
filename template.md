@@ -1,5 +1,5 @@
 <head>
-<title>dark dimension</title>
+<title>Dark Dimension</title>
 <link rel="stylesheet" href="@STYLE_PREFIX@style.css"/>
 <link rel="shortcut icon" href="@ROOT@favicon.ico">
 <meta charset="UTF-8">
@@ -7,9 +7,15 @@
 
 <img src="@ROOT@logo.png" style="width: 100px;"/>
 
-#dark dimension
+#Dark Dimension
 
-####[home](@ROOT@index.html) | [games](@ROOT@pages/games.html) | [comics](@ROOT@pages/comics.html) | [sounds](@ROOT@pages/sounds.html) | [contact](@ROOT@pages/contact.html) | [bloopers](@ROOT@pages/bloopers.html) | [memories](@ROOT@pages/projects.html)
+<a class="menu" href="@ROOT@index.html">Home</a> |
+<a class="menu" href="@ROOT@pages/games.html">Games</a> |
+<a class="menu" href="@ROOT@pages/comics.html">Comics</a> |
+<a class="menu" href="@ROOT@pages/sounds.html">Sounds</a> |
+<a class="menu" href="@ROOT@pages/contact.html">Contact</a> |
+<a class="menu" href="@ROOT@pages/bloopers.html">Bloopers</a> |
+<a class="menu" href="@ROOT@pages/projects.html">Memories</a>
 
 ---
 
@@ -17,4 +23,4 @@
 
 ---
 
-*this is the home of dark dimension* - [privacy policy](@ROOT@pages/privacy_policy.html)
+*this is the home of dark dimension* - <a class="menu" href="@ROOT@pages/privacy_policy.html">privacy policy</a>

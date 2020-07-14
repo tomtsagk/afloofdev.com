@@ -45,7 +45,7 @@ while [ ! -z "${CONTENTS[i]}" ]; do
 
 	# there's another page, so make a "next" link at the end
 	if [ ! -z "${CONTENTS[i+1]}" ]; then
-		CONTENTS[i]=${CONTENTS[i]}"---\n\n<a href='history_$((i+1)).html'>next</a>\n\n"
+		CONTENTS[i]=${CONTENTS[i]}"---\n\n<a class=\"menu\" href='history_$((i+1)).html'>next</a>\n\n"
 	fi
 
 	# first page is index, the rest are history
@@ -58,7 +58,7 @@ while [ ! -z "${CONTENTS[i]}" ]; do
 		else
 			PAGE=history_$((i-1))
 		fi
-		CONTENTS[i]="<a href='$PAGE.html'>previous</a>\n\n---\n\n${CONTENTS[i]}\n"
+		CONTENTS[i]="<a class=\"menu\" href='$PAGE.html'>previous</a>\n\n---\n\n${CONTENTS[i]}\n"
 
 		# generate page
 		gen_page "${CONTENTS[i]}" _site/history_$i.html

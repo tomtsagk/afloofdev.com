@@ -19,7 +19,7 @@
 <img id="screenshot" src="@DIR_IMAGES@shuffled_nightmares_screenshot_3.png"/>
 <img id="screenshot" src="@DIR_IMAGES@shuffled_nightmares_screenshot_4.png"/>
 
-Download all assets in a compressed file: [shuffled_nightmares_assets.zip](@DIR_FILES@shuffled_nightmares_assets.zip)
+Download all assets in a compressed file: <a class="menu" href="@DIR_FILES@shuffled_nightmares_assets.zip">shuffled_nightmares_assets.zip</a>
 
 ###Description
 
@@ -36,9 +36,9 @@ The aim of this game is to rotate pieces of a shuffled puzzle, to reveal a Night
 
 `<Space>`: confirm choice
 
-###Where to find it
+###Available on
 
-[Steam](https://store.steampowered.com/app/1289510) |
-[itch.io](https://darkdimension.itch.io/shuffled-nightmares) |
-[GameJolt](https://gamejolt.com/games/shuffled_nightmares/484001) |
-[indiedb](https://www.indiedb.com/games/shuffled-nightmares)
+<a class="button" href="https://store.steampowered.com/app/1289510">Steam</a> |
+<a class="button" href="https://darkdimension.itch.io/shuffled-nightmares">itch.io</a> |
+<a class="button" href="https://gamejolt.com/games/shuffled_nightmares/484001">GameJolt</a> |
+<a class="button" href="https://www.indiedb.com/games/shuffled-nightmares">indiedb</a>

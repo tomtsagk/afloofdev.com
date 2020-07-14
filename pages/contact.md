@@ -18,9 +18,10 @@ e-mail: tomtsagk@protonmail.com<br>
 
 ####Find me on
 
-[NotABug](https://notabug.org/tomtsagk) |
-[Itch.io](https://darkdimension.itch.io/) |
-[GameJolt.com](https://gamejolt.com/@DarkDimension) |
-[IndieDB.com](https://www.indiedb.com/members/darkdimension) |
-[Mastodon](https://hostux.social/@darkdimension) |
-[Stack Exchange](https://stackexchange.com/users/3568134) ([GameDev](https://gamedev.stackexchange.com/users/50867/tomtsagk))
+<a class="button" href="https://notabug.org/tomtsagk">NotABug</a> |
+<a class="button" href="https://darkdimension.itch.io/">Itch.io</a> |
+<a class="button" href="https://gamejolt.com/@DarkDimension">GameJolt.com</a> |
+<a class="button" href="https://www.indiedb.com/members/darkdimension">IndieDB.com</a> |
+<a class="button" href="https://hostux.social/@darkdimension">Mastodon</a> |
+<a class="button" href="https://stackexchange.com/users/3568134">Stack Exchange</a> |
+<a class="button" href="https://gamedev.stackexchange.com/users/50867/tomtsagk">GameDev Stack Exchange</a>

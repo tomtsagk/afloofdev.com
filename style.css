@@ -2,17 +2,19 @@
 /* Body */
 body {
 background-color: #222;
+background-image: url('images/bg_pattern.png');
 padding: 8px;
 margin: 0px;
 text-align: center;
 color: #c9f;
-visibility:none;
 }
 
 /* horizontal lines */
 hr {
 padding: 0px;
 margin: 0px;
+margin-top: 30px;
+margin-bottom: 30px;
 height: 2px;
 background: #c9f;
 border: 0px;
@@ -39,16 +41,47 @@ width: 100px;
 width: 300px;
 }
 
+/* Normal links */
 a {
 color: #6696ff;
 }
 
-a:visited {
-color: #3363cc;
-}
-
 a:hover {
 color: #96ff66;
+}
+
+/* Button links */
+a.button {
+color: #222;
+color: #6696ff;
+background-color: #6696ff;
+background-color: #222;
+padding: 10px;
+text-decoration: none;
+border: 1px solid #96ff66;
+border: 1px solid #6696ff;
+border-radius: 10px;
+display: inline-block;
+}
+
+a.button:hover {
+background-color: #96ff66;
+color: #222;
+}
+
+/* Menu links */
+a.menu {
+color: #6696ff;
+padding: 10px;
+text-decoration: none;
+border: 1px solid #6696ff;
+margin: 0px;
+display: inline-block;
+}
+
+a.menu:hover {
+color: #222;
+background-color: #96ff66;
 }
 
 /* this makes the point on ul appear next to the text */
@@ -57,19 +90,12 @@ ul {
         text-align:left;
 }
 
-input[type=checkbox]+ p {
-  color: #ccc;
-  font-style: italic;
-  visibility: visible;
-} 
-input[type=checkbox]:checked+ p {
-  color: #f00;
-  font-style: normal;
-  visibility: hidden;
-} 
-
 code {
 	background: #111;
-	padding-left: 2px;
-	padding-right: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 1px solid #333;
+	border-radius: 8px;
 }
