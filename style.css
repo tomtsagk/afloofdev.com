@@ -4,9 +4,11 @@ body {
 background-color: #222;
 background-image: url('images/bg_pattern.png');
 padding: 8px;
-margin: 0px;
+margin: 0 auto;
+max-width: 1000px;
 text-align: center;
 color: #c9f;
+display: block !important;
 }
 
 /* horizontal lines */

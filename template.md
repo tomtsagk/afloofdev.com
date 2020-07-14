@@ -5,6 +5,8 @@
 <meta charset="UTF-8">
 </head>
 
+<body style="display: none;">
+
 <img src="@ROOT@logo.png" style="width: 100px;"/>
 
 #Dark Dimension
@@ -24,3 +26,5 @@
 ---
 
 *this is the home of dark dimension* - <a class="menu" href="@ROOT@pages/privacy_policy.html">privacy policy</a>
+
+</body>
