@@ -20,6 +20,16 @@ margin-bottom: 30px;
 height: 2px;
 background: #c9f;
 border: 0px;
+border-radius: 2px;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+/* horizontal lines */
+hr.big_horizontal_line {
+height: 4px;
+margin-left: 0px;
+margin-right: 0px;
 }
 
 /* images */
@@ -41,6 +51,7 @@ width: 100px;
 
 #screenshot {
 width: 300px;
+margin: 5px;
 }
 
 /* Normal links */
@@ -64,6 +75,8 @@ border: 1px solid #96ff66;
 border: 1px solid #6696ff;
 border-radius: 10px;
 display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
 }
 
 a.button:hover {
@@ -79,6 +92,8 @@ text-decoration: none;
 border: 1px solid #6696ff;
 margin: 0px;
 display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
 }
 
 a.menu:hover {

@@ -11,20 +11,23 @@
 
 #Dark Dimension
 
+<!--
+<img class="char_surprised" src="@ROOT@images/surprised.png" style="width: 100px; float: left; margin-left: 50px; margin-top:-160px;"/>
+-->
+
 <a class="menu" href="@ROOT@index.html">Home</a> |
 <a class="menu" href="@ROOT@pages/games.html">Games</a> |
-<a class="menu" href="@ROOT@pages/comics.html">Comics</a> |
 <a class="menu" href="@ROOT@pages/sounds.html">Sounds</a> |
 <a class="menu" href="@ROOT@pages/contact.html">Contact</a> |
 <a class="menu" href="@ROOT@pages/bloopers.html">Bloopers</a> |
 <a class="menu" href="@ROOT@pages/projects.html">Memories</a>
 
----
+<hr class="big_horizontal_line"/>
 
 @CONTENT@
 
----
+<hr class="big_horizontal_line"/>
 
-*this is the home of dark dimension* - <a class="menu" href="@ROOT@pages/privacy_policy.html">privacy policy</a>
+*this is the home of dark dimension* - <a class="menu" href="@ROOT@pages/privacy_policy.html">Privacy Policy</a>
 
 </body>

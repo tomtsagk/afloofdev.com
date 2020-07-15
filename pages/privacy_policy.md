@@ -1,8 +1,6 @@
-##privacy policy
+##Privacy Policy
 
-no personal data are being saved, ever.
+No personal data are being saved.
 
-this site is only meant to describe projects that are being worked on,
-and serves the same information to all viewers, regardless of who or where they are.
-for this reason, this site is not using cookies, and doesn't save any kind of information,
-personal or otherwise.
+This site is only meant to describe projects that are being worked on.
+For this reason cookies are not used, and no information is saved.
