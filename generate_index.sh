@@ -15,6 +15,7 @@ PAGE_NUMBER=0
 POST_NUMBER=0
 POSTS_TOTAL=`ls | wc -l`
 POSTS_CURRENT=0
+POSTS_CURRENT_TOTAL=0
 for i in `ls -r *`; do
 	date="${i:0:4}${i:4:2}${i:6:2} ${i:8:2}:${i:10:2}"
 	date=$(date --date="$date" +"%Y.%m.%d - %a %H:%M")
@@ -22,12 +23,13 @@ for i in `ls -r *`; do
 	post="$post\n\n$date\n\n"
 
 	# control lines so the last post has no horizontal line
-	if [ $POSTS_CURRENT -lt 4 -o $POSTS_CURRENT -eq $((POSTS_TOTAL - 1)) ]; then
+	if [ $POSTS_CURRENT -eq 4 -o $POSTS_CURRENT_TOTAL -eq $((POSTS_TOTAL - 1)) ]; then
+		POSTS_CURRENT=0
+	else
 		post="$post---\n\n"
 		POSTS_CURRENT=$(( $POSTS_CURRENT + 1))
-	else
-		POSTS_CURRENT=0
 	fi
+	POSTS_CURRENT_TOTAL=$(( $POSTS_CURRENT_TOTAL + 1))
 
 	# currently, make a new page every 5 posts
 	POST_NUMBER=$(($POST_NUMBER+1))
@@ -41,25 +43,45 @@ cd ..
 
 # print all pages with posts
 i=0
+pagesTotal=${#CONTENTS[@]}
 while [ ! -z "${CONTENTS[i]}" ]; do
 
-	# there's another page, so make a "next" link at the end
-	if [ ! -z "${CONTENTS[i+1]}" ]; then
-		CONTENTS[i]=${CONTENTS[i]}"---\n\n<a class=\"menu\" href='history_$((i+1)).html'>next</a>\n\n"
+	# find the page index to display
+	pageIndex=$(($i +1))
+
+	# Not first page, so prepare "previous" functionality
+	if [ "$i" -gt 0 ]; then
+
+		# check previous page name
+		if [ "$i" -eq 1 ]; then
+			PAGE=index
+		else
+			PAGE=history_$((i-1))
+		fi
+		previousButton="<a class=\"menu\" href='$PAGE.html'>previous</a>"
+	else
+		previousButton=""
 	fi
+
+	# Next page button
+	if [ ! -z "${CONTENTS[i+1]}" ]; then
+		nextButton="<a class=\"menu\" href='history_$((i+1)).html'>Next</a>"
+	else
+		nextButton=""
+	fi
+
+	# the final text: <previousButton> Page X / Y <nextButton>
+	pageButton="$previousButton Page $pageIndex / $pagesTotal $nextButton"
+
+	# Always show page index at the bottom of the page
+	CONTENTS[i]=${CONTENTS[i]}"---\n\n$pageButton\n\n"
+	#CONTENTS[i]="$pageButton\n\n---\n\n${CONTENTS[i]}\n"
 
 	# first page is index, the rest are history
 	if [ "$i" -eq 0 ]; then
 		gen_page "${CONTENTS[i]}" _site/index.html
 	# not first page, so put a "previous" link in the beginning
 	else
-		if [ "$i" -eq 1 ]; then
-			PAGE=index
-		else
-			PAGE=history_$((i-1))
-		fi
-		CONTENTS[i]="<a class=\"menu\" href='$PAGE.html'>previous</a>\n\n---\n\n${CONTENTS[i]}\n"
-
 		# generate page
 		gen_page "${CONTENTS[i]}" _site/history_$i.html
 	fi

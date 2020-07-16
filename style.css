@@ -5,6 +5,7 @@ background-color: #222;
 background-image: url('images/bg_pattern.png');
 padding: 8px;
 margin: 0 auto;
+width: 90%;
 max-width: 1000px;
 text-align: center;
 color: #c9f;
@@ -103,16 +104,50 @@ background-color: #96ff66;
 
 /* this makes the point on ul appear next to the text */
 ul {
-	display: inline-block;
-        text-align:left;
+display: inline-block;
+text-align:left;
 }
 
+/* Same-line code */
 code {
-	background: #111;
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	border: 1px solid #333;
-	border-radius: 8px;
+background: #111;
+padding-left: 6px;
+padding-right: 6px;
+padding-top: 4px;
+padding-bottom: 4px;
+border: 1px solid #333;
+border-radius: 8px;
+}
+
+/* Figures */
+figure {
+background: #111;
+border: 1px solid #333;
+border-radius: 8px;
+display: inline-block;
+text-align: left;
+padding: 20px;
+margin: 0px;
+max-width: 950px;
+width: 90%;
+overflow: auto;
+font-family: monospace;
+}
+
+figcaption {
+background: #222;
+padding: 10px;
+font-style: italic;
+}
+
+figure code {
+background: #2220;
+padding: 0px;
+border: 0;
+white-space: pre;
+}
+
+pre {
+margin: 0 0 0 0;
+padding: 0px;
 }
