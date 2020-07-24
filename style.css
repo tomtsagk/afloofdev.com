@@ -66,14 +66,11 @@ color: #96ff66;
 
 /* Button links */
 a.button {
-color: #222;
 color: #6696ff;
-background-color: #6696ff;
 background-color: #222;
 padding: 10px;
 text-decoration: none;
-border: 1px solid #96ff66;
-border: 1px solid #6696ff;
+border: 2px solid #6696ff;
 border-radius: 10px;
 display: inline-block;
 margin-top: 5px;
@@ -90,7 +87,7 @@ a.menu {
 color: #6696ff;
 padding: 10px;
 text-decoration: none;
-border: 1px solid #6696ff;
+border: 2px solid #6696ff;
 margin: 0px;
 display: inline-block;
 margin-top: 5px;
