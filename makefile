@@ -45,7 +45,7 @@ FILES_DST=$(subst files,${OUT}/files,${FILES_SRC})
 TEMPLATE=template.md
 
 # build the whole site
-all: ${LOGO_DST} ${FAVICON_DST} ${STYLE_DST} ${PAGES_OUT} ${LICENSE_DST} ${IMAGES_DST} ${FILES_DST} ${OUT}/sitemap.xml# ${INDEX_DST}
+all: ${LOGO_DST} ${FAVICON_DST} ${STYLE_DST} ${PAGES_OUT} ${LICENSE_DST} ${IMAGES_DST} ${FILES_DST} ${OUT}/sitemap.xml ${OUT}/robots.txt# ${INDEX_DST}
 
 # build output directory
 ${OUT}:
@@ -53,7 +53,11 @@ ${OUT}:
 
 # sitemap (currently generated manually)
 ${OUT}/sitemap.xml: sitemap.xml
-	cp sitemap.xml ${OUT}/sitemap.xml
+	cp $^ $@
+
+# robots.txt
+${OUT}/robots.txt: robots.txt
+	cp $^ $@
 
 #
 # build logo, favicon and sstyle
