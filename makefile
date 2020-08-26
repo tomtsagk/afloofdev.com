@@ -36,17 +36,24 @@ PAGES_OUT=$(subst .md,.html,$(subst pages,${OUT}/pages,${PAGES_SRC}))
 IMAGES_SRC=$(wildcard images/*)
 IMAGES_DST=$(subst images,${OUT}/images,${IMAGES_SRC})
 
+#
+# files
+#
+FILES_SRC=$(wildcard files/*)
+FILES_DST=$(subst files,${OUT}/files,${FILES_SRC})
+
 TEMPLATE=template.md
 
 # build the whole site
-all: ${LOGO_DST} ${FAVICON_DST} ${STYLE_DST} ${PAGES_OUT} ${LICENSE_DST} ${IMAGES_DST} ${OUT}/sitemap.xml# ${INDEX_DST}
-
-${OUT}/sitemap.xml: sitemap.xml
-	cp sitemap.xml ${OUT}/sitemap.xml
+all: ${LOGO_DST} ${FAVICON_DST} ${STYLE_DST} ${PAGES_OUT} ${LICENSE_DST} ${IMAGES_DST} ${FILES_DST} ${OUT}/sitemap.xml# ${INDEX_DST}
 
 # build output directory
 ${OUT}:
 	mkdir -p ${OUT}
+
+# sitemap (currently generated manually)
+${OUT}/sitemap.xml: sitemap.xml
+	cp sitemap.xml ${OUT}/sitemap.xml
 
 #
 # build logo, favicon and sstyle
@@ -73,6 +80,11 @@ ${OUT}/pages/%.html: pages/%.md ${TEMPLATE}
 # build images
 ${OUT}/images/%: images/%
 	mkdir -p ${OUT}/images
+	cp $^ $@
+
+# build files
+${OUT}/files/%: files/%
+	mkdir -p ${OUT}/files
 	cp $^ $@
 
 # build index and history
