@@ -4,7 +4,7 @@
 <link rel="shortcut icon" href="@ROOT@favicon.ico">
 <meta charset="UTF-8">
 <meta name="keywords" content="darkdimension, dark dimension, video games, avdl">
-<meta name="description" content="Indie video games, with a twist.">
+<meta name="description" content="Indie video games, with a twist. Available for different platforms including Linux and Windows.">
 <meta name="author" content="Tom Tsagk (TomTsagk@protonmail.com)">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>

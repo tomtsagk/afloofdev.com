@@ -39,7 +39,10 @@ IMAGES_DST=$(subst images,${OUT}/images,${IMAGES_SRC})
 TEMPLATE=template.md
 
 # build the whole site
-all: ${LOGO_DST} ${FAVICON_DST} ${STYLE_DST} ${PAGES_OUT} ${LICENSE_DST} ${IMAGES_DST}# ${INDEX_DST}
+all: ${LOGO_DST} ${FAVICON_DST} ${STYLE_DST} ${PAGES_OUT} ${LICENSE_DST} ${IMAGES_DST} ${OUT}/sitemap.xml# ${INDEX_DST}
+
+${OUT}/sitemap.xml: sitemap.xml
+	cp sitemap.xml ${OUT}/sitemap.xml
 
 # build output directory
 ${OUT}:

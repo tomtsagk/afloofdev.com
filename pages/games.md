@@ -1,3 +1,39 @@
+<!-- Adding code
+<p>
+<figure>
+<figcaption>my_file.dd</figcaption>
+<code>
+class {
+	int x;
+
+	x = 1 + 3;
+	int y;
+	Very big line with lots of code woo haa
+}
+</code>
+</figure>
+</p>
+-->
+##The king is gone
+
+linux/windows | keyboard/mouse | avdl | TBD
+
+<img id="icon" src="@DIR_IMAGES@icon-the_king_is_gone.png"/>
+
+A game about running away, not because one has somewhere to go, but because one has somewhere they
+don't want to be in.
+
+The aim of this game is to run away as fast as possible. Doors block your path, which have to be unlocked
+to continue. Each door will give a specific benefit, which will making escaping easier ... or not.
+
+Currently only demos of the alpha builds are available. The first stable version is planned to appear
+around December 2020.
+
+<a class="button" href="https://darkdimension.itch.io/the-king-is-gone">Itch.io</a> |
+<a class="button" href="https://gamejolt.com/games/the-king-is-gone/518056">GameJolt</a> |
+<a class="button" href="https://www.indiedb.com/games/the-king-is-gone">IndieDB</a>
+
+---
 ##[Shuffled Nightmares](shuffled_nightmares.html)
 
 linux/windows | keyboard | avdl | 28.01.2020
