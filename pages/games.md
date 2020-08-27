@@ -152,6 +152,6 @@ android | java (android) | 13.01.2014
 
 text-based role playing fantasy game.
 you live in a world where magic is real.
-you accidentaly earn magic powers, and have to survive in a magic-hating city.
+you accidentally earn magic powers, and have to survive in a magic-hating city.
 
 <a class="button" href="https://play.google.com/store/apps/details?id=com.darkdimension.laughingveil">Google Play Store</a>
