@@ -58,14 +58,14 @@ while [ ! -z "${CONTENTS[i]}" ]; do
 		else
 			PAGE=history_$((i-1))
 		fi
-		previousButton="<a class=\"menu\" href='$PAGE.html'>previous</a>"
+		previousButton="<a class=\"menu\" href='$PAGE.html'><</a>"
 	else
 		previousButton=""
 	fi
 
 	# Next page button
 	if [ ! -z "${CONTENTS[i+1]}" ]; then
-		nextButton="<a class=\"menu\" href='history_$((i+1)).html'>Next</a>"
+		nextButton="<a class=\"menu\" href='history_$((i+1)).html'>></a>"
 	else
 		nextButton=""
 	fi
