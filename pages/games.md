@@ -18,7 +18,7 @@ class {
 
 linux/windows | keyboard/mouse | avdl | TBD
 
-<img id="icon" src="@DIR_IMAGES@icon-the_king_is_gone.png"/>
+<img id="icon" src="@ROOT@/images/icon-the_king_is_gone.png" alt="The king is gone icon"/>
 
 A game about running away, not because one has somewhere to go, but because one has somewhere they
 don't want to be in.
@@ -38,7 +38,7 @@ around December 2020.
 
 linux/windows | keyboard | avdl | 28.01.2020
 
-<img id="icon" src="@DIR_IMAGES@icon_shuffled-nightmares.png"/>
+<img id="icon" src="@ROOT@/images/icon_shuffled-nightmares.png" alt="Shuffled Nightmares icon"/>
 
 The aim of this game is to rotate pieces of a shuffled puzzle, to reveal a Nightmare. Each level is more challenging than the previous one, with more parts of the puzzle shuffled, and introducing new behavior.
 
@@ -52,7 +52,7 @@ The aim of this game is to rotate pieces of a shuffled puzzle, to reveal a Night
 
 web | mouse/touch | javascript/pixijs | 28.01.2018
 
-<img id="icon" src="@DIR_IMAGES@icon_the-collector.png"/>
+<img id="icon" src="@ROOT@/images/icon_the-collector.png" alt="The collector icon"/>
 
 small idle-like game.
 the game was completed in about 7 days in order to practise my javascript and pixijs skills.
@@ -65,7 +65,7 @@ the game was completed in about 7 days in order to practise my javascript and pi
 linux | keyboard | C++/OpenGL | 16.03.2016
 | dependencies: opengl, freeglut, glew
 
-<img id="icon" src="@DIR_IMAGES@icon_dargite.png"/>
+<img id="icon" src="@ROOT@/images/icon_dargite.png" alt="Dargite3d icon"/>
 
 pong clone. pick from 12 available characters, 
 and some available stages. moddable enough to allow adding new characters,
@@ -80,7 +80,7 @@ and new stages.
 
 android | java (android) | 8.11.2015
 
-<img id="icon" src="@DIR_IMAGES@icon_blemish.png"/>
+<img id="icon" src="@ROOT@/images/icon_blemish.png" alt="Blemish icon"/>
 
 puzzle game containing 27 different puzzles of increasing difficulty. 
 includes a random mode for extra fun. the game is made in such a way 
@@ -94,7 +94,7 @@ that makes the user explore the game to understand how it works.
 
 android | java (android) | 15.09.2014
 
-<img id="icon" src="@DIR_IMAGES@icon_ritle.png"/>
+<img id="icon" src="@ROOT@/images/icon_ritle.png" alt="Ritle icon"/>
 
 infinite runner. jump at the right time in order to avoid obstacles, and
 collect the right items for the best score.
@@ -107,7 +107,7 @@ collect the right items for the best score.
 
 android | java (android) | 08.10.2014
 
-<img id="icon" src="@DIR_IMAGES@icon_dargite.png"/>
+<img id="icon" src="@ROOT@/images/icon_dargite.png" alt="Dargite icon"/>
 
 2d pong clone. select from 12 characters with different abilities. supports game controllers
 and multiplayer on the same device.
@@ -120,7 +120,7 @@ and multiplayer on the same device.
 
 android | java (android) | 29.05.2014
 
-<img id="icon" src="@DIR_IMAGES@icon_town-wars.png"/>
+<img id="icon" src="@ROOT@/images/icon_town-wars.png" alt="Town Wars icon"/>
 
 keep attacking the enemy's field until you destroy all their structures.
 each character has different structure formation, which you can use as clues of where to attack next.
@@ -134,7 +134,7 @@ play against a friend on the same device is available.
 
 android | java (android) | 06.05.2014
 
-<img id="icon" src="@DIR_IMAGES@icon_yarn-chase.png"/>
+<img id="icon" src="@ROOT@/images/icon_yarn-chase.png" alt="Yarn Chase icon"/>
 
 launcher-type game.
 throw the yarn and let the cat chase it.
@@ -148,7 +148,7 @@ earn money and buy upgrades to launch further next time.
 
 android | java (android) | 13.01.2014
 
-<img id="icon" src="@DIR_IMAGES@icon_laughing-veil.png"/>
+<img id="icon" src="@ROOT@/images/icon_laughing-veil.png" alt="Laughing Veil icon"/>
 
 text-based role playing fantasy game.
 you live in a world where magic is real.

@@ -6,7 +6,7 @@ TEMPLATE=$(cat template.md)
 ## replace contents with first argument, parse with markdown,
 ## and paste on second argument
 gen_page() {
-	echo -e "${TEMPLATE/@CONTENT@/$1}" | sed "s/@STYLE_PREFIX@//g" | sed "s/@ROOT@//g" | markdown > $2
+	echo -e "${TEMPLATE/@CONTENT@/$1}" | sed "s/@STYLE_PREFIX@//g" | sed "s/@ROOT@/./g" | markdown > $2
 }
 
 # each X number of posts, make a page, starting from index, and moving to history

@@ -1,7 +1,7 @@
 <head>
 <title>Dark Dimension</title>
-<link rel="stylesheet" href="@STYLE_PREFIX@style.css"/>
-<link rel="shortcut icon" href="@ROOT@favicon.ico">
+<link rel="stylesheet" href="@ROOT@/style.css"/>
+<link rel="shortcut icon" href="@ROOT@/favicon.ico">
 <meta charset="UTF-8">
 <meta name="keywords" content="darkdimension, dark dimension, video games, avdl">
 <meta name="description" content="Indie video games, with a twist. Available for different platforms including Linux and Windows.">
@@ -11,20 +11,16 @@
 
 <body style="display: none;">
 
-<img src="@ROOT@logo.png" style="width: 100px;"/>
+<img src="@ROOT@/logo.png" style="width: 100px;" alt="Dark Dimension logo"/>
 
 #Dark Dimension
 
-<!--
-<img class="char_surprised" src="@ROOT@images/surprised.png" style="width: 100px; float: left; margin-left: 50px; margin-top:-160px;"/>
--->
-
-<a class="menu" href="@ROOT@index.html">Home</a> |
-<a class="menu" href="@ROOT@pages/games.html">Games</a> |
-<a class="menu" href="@ROOT@pages/sounds.html">Sounds</a> |
-<a class="menu" href="@ROOT@pages/contact.html">Contact</a> |
-<a class="menu" href="@ROOT@pages/bloopers.html">Bloopers</a> |
-<a class="menu" href="@ROOT@pages/projects.html">Memories</a>
+<a class="menu" href="@ROOT@/index.html">Home</a> |
+<a class="menu" href="@ROOT@/pages/games.html">Games</a> |
+<a class="menu" href="@ROOT@/pages/sounds.html">Sounds</a> |
+<a class="menu" href="@ROOT@/pages/contact.html">Contact</a> |
+<a class="menu" href="@ROOT@/pages/bloopers.html">Bloopers</a> |
+<a class="menu" href="@ROOT@/pages/projects.html">Memories</a>
 
 <hr class="big_horizontal_line"/>
 
@@ -32,6 +28,6 @@
 
 <hr class="big_horizontal_line"/>
 
-*this is the home of dark dimension* - <a class="menu" href="@ROOT@pages/privacy_policy.html">Privacy Policy</a>
+*this is the home of dark dimension* - <a class="menu" href="@ROOT@/pages/privacy_policy.html">Privacy Policy</a>
 
 </body>

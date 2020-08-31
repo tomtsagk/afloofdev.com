@@ -1,4 +1,4 @@
-<img id="icon" src="@DIR_IMAGES@icon_tomtsagk.png"/>
+<img id="icon" src="@ROOT@/images/icon_tomtsagk.png" alt="Tom Tsagk icon"/>
 
 ##Tom Tsagk
 location: Royal Leamington Spa, UK<br>
@@ -13,7 +13,7 @@ e-mail: tomtsagk@protonmail.com<br>
 
 <!-- Liberapay Donation Button -->
 <a href="https://liberapay.com/DarkDimension/donate" target="_blank">
-	<img src="@DIR_IMAGES@liberapay_donate.png"/>
+	<img src="@ROOT@/images/liberapay_donate.png" alt="Liberapay donate icon"/>
 </a>
 
 ####Find me on

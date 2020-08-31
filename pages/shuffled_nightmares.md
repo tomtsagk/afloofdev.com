@@ -2,7 +2,7 @@
 
 <!--linux/windows | keyboard | avdl | 10.04.2020-->
 
-<img id="icon" src="@DIR_IMAGES@icon_shuffled-nightmares.png"/>
+<img id="icon" src="@ROOT@/images/icon_shuffled-nightmares.png" alt="Shuffled Nightmares icon"/>
 
 * **Developer:** Dark Dimension
 * **Release Date:** 10th of April, 2020
@@ -13,13 +13,13 @@
 
 ###Screenshots
 
-<img id="screenshot" src="@DIR_IMAGES@shuffled_nightmares_screenshot_0.png"/>
-<img id="screenshot" src="@DIR_IMAGES@shuffled_nightmares_screenshot_1.png"/>
-<img id="screenshot" src="@DIR_IMAGES@shuffled_nightmares_screenshot_2.png"/>
-<img id="screenshot" src="@DIR_IMAGES@shuffled_nightmares_screenshot_3.png"/>
-<img id="screenshot" src="@DIR_IMAGES@shuffled_nightmares_screenshot_4.png"/>
+<img id="screenshot" src="@ROOT@/images/shuffled_nightmares_screenshot_0.png" alt="Shuffled Nightmares screenshot 1"/>
+<img id="screenshot" src="@ROOT@/images/shuffled_nightmares_screenshot_1.png" alt="Shuffled Nightmares screenshot 2"/>
+<img id="screenshot" src="@ROOT@/images/shuffled_nightmares_screenshot_2.png" alt="Shuffled Nightmares screenshot 3"/>
+<img id="screenshot" src="@ROOT@/images/shuffled_nightmares_screenshot_3.png" alt="Shuffled Nightmares screenshot 4"/>
+<img id="screenshot" src="@ROOT@/images/shuffled_nightmares_screenshot_4.png" alt="Shuffled Nightmares screenshot 5"/>
 
-Download all assets in a compressed file: <a class="menu" href="@DIR_FILES@shuffled_nightmares_assets.zip">shuffled_nightmares_assets.zip</a>
+Download all assets in a compressed file: <a class="menu" href="@ROOT@/files/shuffled_nightmares_assets.zip">shuffled_nightmares_assets.zip</a>
 
 ###Description
 

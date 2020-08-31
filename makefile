@@ -1,95 +1,74 @@
 
+### Variables
+
+#
+# build directory
+#
 OUT=_site
 
-INDEX_DST=${OUT}/index.html
-POSTS=$(wildcard posts/*.md)
-POSTS_OBJ=$(subst .md,.mdobj,${POSTS})
+#
+# directories to put files in
+#
+DIRECTORIES_DST=${OUT} ${OUT}/pages ${OUT}/images ${OUT}/files
 
 #
-# logo favicon style and license
+# Index files
 #
-LOGO_NAME=logo.png
-LOGO_SRC=${LOGO_NAME}
-LOGO_DST=${OUT}/${LOGO_NAME}
-
-FAVICON_NAME=favicon.ico
-FAVICON_SRC=${FAVICON_NAME}
-FAVICON_DST=${OUT}/${FAVICON_NAME}
-
-STYLE_NAME=style.css
-STYLE_SRC=${STYLE_NAME}
-STYLE_DST=${OUT}/${STYLE_NAME}
-
-LICENSE_NAME=LICENSE
-LICENSE_SRC=${LICENSE_NAME}
-LICENSE_DST=${OUT}/${LICENSE_NAME}
+#INDEX_DST=${OUT}/index.html
+#POSTS=$(wildcard posts/*.md)
+#POSTS_OBJ=$(subst .md,.mdobj,${POSTS})
 
 #
-# pages
+# raw files that are to be copied as-is on the same
+# path as the source file
+#
+RAW_FILES_SRC=LICENSE style.css favicon.ico logo.png sitemap.xml robots.txt $(wildcard images/*) $(wildcard files/*)
+RAW_FILES_DST=$(RAW_FILES_SRC:%=${OUT}/%)
+
+#
+# page files
 #
 PAGES_SRC=$(wildcard pages/*.md)
-PAGES_OUT=$(subst .md,.html,$(subst pages,${OUT}/pages,${PAGES_SRC}))
+PAGES_OBJ=$(PAGES_SRC:.md=.o)
+PAGES_OUT=$(PAGES_OBJ:%.o=${OUT}/%.html)
 
 #
-# images
+# The template all pages use
 #
-IMAGES_SRC=$(wildcard images/*)
-IMAGES_DST=$(subst images,${OUT}/images,${IMAGES_SRC})
-
-#
-# files
-#
-FILES_SRC=$(wildcard files/*)
-FILES_DST=$(subst files,${OUT}/files,${FILES_SRC})
-
 TEMPLATE=template.md
 
+### Rules ###
+
+#
 # build the whole site
-all: ${LOGO_DST} ${FAVICON_DST} ${STYLE_DST} ${PAGES_OUT} ${LICENSE_DST} ${IMAGES_DST} ${FILES_DST} ${OUT}/sitemap.xml ${OUT}/robots.txt# ${INDEX_DST}
+#
+all: ${DIRECTORIES_DST} ${PAGES_OUT} ${RAW_FILES_DST}# ${INDEX_DST}
 
-# build output directory
-${OUT}:
-	mkdir -p ${OUT}
-
-# sitemap (currently generated manually)
-${OUT}/sitemap.xml: sitemap.xml
-	cp $^ $@
-
-# robots.txt
-${OUT}/robots.txt: robots.txt
+#
+# files that have no other rule, are copied to destination
+#
+${OUT}/%: %
 	cp $^ $@
 
 #
-# build logo, favicon and sstyle
+# build output directories
 #
-${LOGO_DST}: ${LOGO_SRC}
-	cp ${LOGO_SRC} ${LOGO_DST}
+${DIRECTORIES_DST}:
+	mkdir -p $@
 
-${FAVICON_DST}: ${FAVICON_SRC}
-	cp ${FAVICON_SRC} ${FAVICON_DST}
+#
+# how to compile all markdown files to "object" files
+#
+%.o: %.md ${TEMPLATE}
+	cat ${TEMPLATE} | sed "s/@ROOT@/../g" | sed "/@CONTENT@/Q" | markdown > $@
+	cat $< | sed "s/@ROOT@/../g" | markdown >> $@
+	cat ${TEMPLATE} | sed "s/@ROOT@/../g" | sed "1,/@CONTENT@/d" | markdown >> $@
 
-${STYLE_DST}: ${STYLE_SRC}
-	cp ${STYLE_SRC} ${STYLE_DST}
-
-${LICENSE_DST}: ${LICENSE_SRC}
-	cp ${LICENSE_SRC} ${LICENSE_DST}
-
-# build pages
-${OUT}/pages/%.html: pages/%.md ${TEMPLATE}
-	mkdir -p ${OUT}/pages
-	cat ${TEMPLATE} | sed "s/@STYLE_PREFIX@/..\//g" | sed "s/@ROOT@/..\//g" | sed "/@CONTENT@/Q" | markdown > $@
-	cat $< | sed "s/@DIR_IMAGES@/..\/images\//g" | sed "s/@DIR_FILES@/..\/files\//g" | markdown >> $@
-	cat ${TEMPLATE} | sed "s/@STYLE_PREFIX@/..\//g" | sed "s/@ROOT@/..\//g" | sed "1,/@CONTENT@/d" | markdown >> $@
-
-# build images
-${OUT}/images/%: images/%
-	mkdir -p ${OUT}/images
-	cp $^ $@
-
-# build files
-${OUT}/files/%: files/%
-	mkdir -p ${OUT}/files
-	cp $^ $@
+#
+# build pages based on their "object" files
+#
+${OUT}/pages/%.html: pages/%.o
+	cp $< $@
 
 # build index and history
 #${INDEX_DST}: ${POSTS_OBJ} 
