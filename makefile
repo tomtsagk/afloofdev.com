@@ -65,6 +65,7 @@ ${DIRECTORIES_DST}:
 #
 %.mdo: %.md ${TEMPLATE}
 	awk '/@DDTITLE@/ {sub("@DDTITLE@=", ""); print;}' $< > $@_title
+	awk '/@DDDESCRIPTION@/ {sub("@DDDESCRIPTION@=", ""); print;}' $< > $@_desc
 	awk '/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../";\
 		result = substr(result, 0, length(result)-1); sub("@ROOT@", result)}\
 		/^@/ {next;}\
@@ -80,6 +81,7 @@ ${OUT}/%.html: %.mdo
 	awk '/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../";\
 		result = substr(result, 0, length(result)-1); sub("@ROOT@", result)}\
 		/@TITLE@/ {getline title < "$<_title"; if (!title) sub("@TITLE@", ""); else { title = ": " title; sub("@TITLE@", title);};}\
+		/@DESCRIPTION@/ {getline desc < "$<_desc"; if (!desc) sub("@DESCRIPTION@", "No description."); else sub("@DESCRIPTION@", desc);}\
 		/@CONTENT@/ {system("cat $<"); next;} {print}' ${TEMPLATE} | markdown > $@
 
 # build index and history

@@ -1,4 +1,5 @@
 @DDTITLE@=Bloopers
+@DDDESCRIPTION@=Things that didn't go as planned, while developing indie video games.
 
 ##checkers error
 

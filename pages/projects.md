@@ -1,4 +1,5 @@
 @DDTITLE@=Memories
+@DDDESCRIPTION@=Projects started by Dark Dimension, and were left either unfinished or abandoned, for a variety of reasons.
 
 ##laughing veil
 

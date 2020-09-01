@@ -1,4 +1,5 @@
 @DDTITLE@=Shuffled Nightmares
+@DDDESCRIPTION@=A puzzle video game. Rotate the pieces of an image to reveal a 'Nightmare'. Contains 12 levels and a random mode.
 
 ##Shuffled Nightmares
 

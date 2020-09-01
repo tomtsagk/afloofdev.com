@@ -7,7 +7,7 @@ TEMPLATE=$(cat template.md)
 ## and paste on second argument
 gen_page() {
 	echo -e "${TEMPLATE/@CONTENT@/$1}" | sed "s/@STYLE_PREFIX@//g" | sed "s/@ROOT@/./g" |\
-		sed "s/@TITLE@/$3/g" | markdown > $2
+		sed "s/@TITLE@/$3/g" | sed "s/@DESCRIPTION@/$4/g" | markdown > $2
 }
 
 # each X number of posts, make a page, starting from index, and moving to history
@@ -80,11 +80,11 @@ while [ ! -z "${CONTENTS[i]}" ]; do
 
 	# first page is index, the rest are history
 	if [ "$i" -eq 0 ]; then
-		gen_page "${CONTENTS[i]}" _site/index.html ": Home"
+		gen_page "${CONTENTS[i]}" _site/index.html ": Home" "Indie video games created with the aim to be unique and creative."
 	# not first page, so put a "previous" link in the beginning
 	else
 		# generate page
-		gen_page "${CONTENTS[i]}" _site/history_$i.html ": History $i"
+		gen_page "${CONTENTS[i]}" _site/history_$i.html ": History $i" "Past posts, with updates about upcoming titles."
 	fi
 	((i++))
 done

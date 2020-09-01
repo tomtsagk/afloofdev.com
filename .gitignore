@@ -1,3 +1,4 @@
 _site/
 
-.mdo_title
+*.mdo_*
+*.mdo_*

@@ -1,4 +1,5 @@
 @DDTITLE@=Sounds
+@DDDESCRIPTION@=Music composed made by Dark Dimension. Mostly likely to be used in video games.
 
 ##lies
 

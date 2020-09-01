@@ -15,6 +15,7 @@ class {
 </p>
 -->
 @DDTITLE@=Games
+@DDDESCRIPTION@=Indie video games made by Dark Dimension. Available for a variety of platforms.
 
 ##The king is gone
 
