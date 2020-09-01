@@ -1,6 +1,5 @@
-<!--
-DDTITLE=MY TITLE
--->
+@DDTITLE@=Privacy Policy
+
 ##Privacy Policy
 
 No personal data are being saved.

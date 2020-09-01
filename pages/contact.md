@@ -1,3 +1,5 @@
+@DDTITLE@=Contact
+
 <img id="icon" src="@ROOT@/images/icon_tomtsagk.png" alt="Tom Tsagk icon"/>
 
 ##Tom Tsagk

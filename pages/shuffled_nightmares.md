@@ -1,3 +1,5 @@
+@DDTITLE@=Shuffled Nightmares
+
 ##Shuffled Nightmares
 
 <!--linux/windows | keyboard | avdl | 10.04.2020-->

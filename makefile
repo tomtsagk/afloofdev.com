@@ -64,7 +64,9 @@ ${DIRECTORIES_DST}:
 # the `awk` line calculates the right path for the root of the project, to find other files in every page
 #
 %.mdo: %.md ${TEMPLATE}
+	awk '/@DDTITLE@/ {sub("@DDTITLE@=", ""); print;}' $< > $@_title
 	awk '/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../"; sub("@ROOT@", result)}\
+		/^@/ {next;}\
 		{print}' $< | markdown > $@
 
 #
@@ -74,7 +76,9 @@ ${DIRECTORIES_DST}:
 # it then replaces the @CONTENT@ value from the template, to the content of the file being compiled
 #
 ${OUT}/%.html: %.mdo
-	awk '/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../"; sub("@ROOT@", result)}\
+	awk '/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../";\
+		result = substr(result, 0, length(result)-1); sub("@ROOT@", result)}\
+		/@TITLE@/ {getline title < "$<_title"; if (!title) sub("@TITLE@", ""); else { title = ": " title; sub("@TITLE@", title);};}\
 		/@CONTENT@/ {system("cat $<"); next;} {print}' ${TEMPLATE} | markdown > $@
 
 # build index and history

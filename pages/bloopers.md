@@ -1,3 +1,5 @@
+@DDTITLE@=Bloopers
+
 ##checkers error
 
 <img src="@ROOT@/images/icon_bloopers_checkers.png" style="width:400px" alt="Checkers error icon"/>

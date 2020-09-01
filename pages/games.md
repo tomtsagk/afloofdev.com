@@ -14,6 +14,8 @@ class {
 </figure>
 </p>
 -->
+@DDTITLE@=Games
+
 ##The king is gone
 
 linux/windows | keyboard/mouse | avdl | TBD
