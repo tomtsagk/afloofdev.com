@@ -65,7 +65,8 @@ ${DIRECTORIES_DST}:
 #
 %.mdo: %.md ${TEMPLATE}
 	awk '/@DDTITLE@/ {sub("@DDTITLE@=", ""); print;}' $< > $@_title
-	awk '/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../"; sub("@ROOT@", result)}\
+	awk '/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../";\
+		result = substr(result, 0, length(result)-1); sub("@ROOT@", result)}\
 		/^@/ {next;}\
 		{print}' $< | markdown > $@
 
