@@ -1,5 +1,6 @@
 
-### Variables
+
+### Variables ###
 
 #
 # build directory
@@ -37,6 +38,7 @@ PAGES_OUT=$(PAGES_OBJ:%.o=${OUT}/%.html)
 #
 TEMPLATE=template.md
 
+
 ### Rules ###
 
 #
@@ -59,16 +61,21 @@ ${DIRECTORIES_DST}:
 #
 # how to compile all markdown files to "object" files
 #
-%.o: %.md ${TEMPLATE}
-	cat ${TEMPLATE} | sed "s/@ROOT@/../g" | sed "/@CONTENT@/Q" | markdown > $@
-	cat $< | sed "s/@ROOT@/../g" | markdown >> $@
-	cat ${TEMPLATE} | sed "s/@ROOT@/../g" | sed "1,/@CONTENT@/d" | markdown >> $@
+# the `awk` line calculates the right path for the root of the project, to find other files in every page
+#
+%.mdo: %.md ${TEMPLATE}
+	awk '/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../"; sub("@ROOT@", result)}\
+		{print}' $< | markdown > $@
 
 #
 # build pages based on their "object" files
 #
-${OUT}/pages/%.html: pages/%.o
-	cp $< $@
+# the `awk` line calculates the right path for the root of the project, to find other files in every page
+# it then replaces the @CONTENT@ value from the template, to the content of the file being compiled
+#
+${OUT}/%.html: %.mdo
+	awk '/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../"; sub("@ROOT@", result)}\
+		/@CONTENT@/ {system("cat $<"); next;} {print}' ${TEMPLATE} | markdown > $@
 
 # build index and history
 #${INDEX_DST}: ${POSTS_OBJ} 
