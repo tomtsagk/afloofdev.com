@@ -84,7 +84,7 @@ while [ ! -z "${CONTENTS[i]}" ]; do
 	# not first page, so put a "previous" link in the beginning
 	else
 		# generate page
-		gen_page "${CONTENTS[i]}" _site/history_$i.html ": History $i" "Past posts, with updates about upcoming titles."
+		gen_page "${CONTENTS[i]}" _site/history_$i.html ": History $i" "Past posts, with updates about upcoming titles. Page $i."
 	fi
 	((i++))
 done
