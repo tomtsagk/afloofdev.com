@@ -55,11 +55,11 @@ while [ ! -z "${CONTENTS[i]}" ]; do
 
 		# check previous page name
 		if [ "$i" -eq 1 ]; then
-			PAGE=index
+			PAGE=./
 		else
-			PAGE=history_$((i-1))
+			PAGE=history_$((i-1)).html
 		fi
-		previousButton="<a class=\"menu\" href='$PAGE.html'><</a>"
+		previousButton="<a class=\"menu\" href='$PAGE'><</a>"
 	else
 		previousButton=""
 	fi

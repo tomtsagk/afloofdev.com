@@ -15,7 +15,7 @@
 
 #Dark Dimension
 
-<a class="menu" href="@ROOT@/index.html">Home</a> |
+<a class="menu" href="@ROOT@/">Home</a> |
 <a class="menu" href="@ROOT@/pages/games.html">Games</a> |
 <a class="menu" href="@ROOT@/pages/sounds.html">Sounds</a> |
 <a class="menu" href="@ROOT@/pages/contact.html">Contact</a> |
