@@ -32,6 +32,12 @@ to continue. Each door will give a specific benefit, which will making escaping 
 Currently only demos of the alpha builds are available. The first stable version is planned to appear
 around December 2020.
 
+> **Note:**
+
+> This project is still in active development.
+> Only an alpha build is available in the following links.
+> The first stable version is planned for December 2020.
+
 <a class="button" href="https://darkdimension.itch.io/the-king-is-gone">Itch.io</a> |
 <a class="button" href="https://gamejolt.com/games/the-king-is-gone/518056">GameJolt</a> |
 <a class="button" href="https://www.indiedb.com/games/the-king-is-gone">IndieDB</a>
