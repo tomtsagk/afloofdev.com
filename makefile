@@ -33,6 +33,9 @@ PAGES_SRC=$(wildcard pages/*.md)
 PAGES_OBJ=$(PAGES_SRC:.md=.o)
 PAGES_OUT=$(PAGES_OBJ:%.o=${OUT}/%.html)
 
+PAGES_SRC_JSON=$(wildcard pages/*.json)
+PAGES_OUT_JSON=$(PAGES_SRC_JSON:%.json=${OUT}/%.html)
+
 #
 # The template all pages use
 #
@@ -44,7 +47,7 @@ TEMPLATE=template.md
 #
 # build the whole site
 #
-all: ${DIRECTORIES_DST} ${PAGES_OUT} ${RAW_FILES_DST}# ${INDEX_DST}
+all: ${DIRECTORIES_DST} ${PAGES_OUT} ${RAW_FILES_DST} ${PAGES_OUT_JSON} # ${INDEX_DST}
 
 #
 # files that have no other rule, are copied to destination
@@ -57,6 +60,17 @@ ${OUT}/%: %
 #
 ${DIRECTORIES_DST}:
 	mkdir -p $@
+
+#
+# build json pages
+#
+${OUT}/%.html: %.json ${TEMPLATE}
+	awk '/@TITLE@/ { sub("@TITLE@", $(shell cat $< | jq .title)); next;}\
+		/@DESCRIPTION@/ { sub("@DESCRIPTION@", $(shell cat $< | jq .description)); }\
+		/@CONTENT@/ { sub("@CONTENT@", $(shell cat $< | jq .content)); }\
+		/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../";\
+			result = substr(result, 0, length(result)-1); sub("@ROOT@", result)}\
+		{print}' ${TEMPLATE} > $@
 
 #
 # how to compile all markdown files to "object" files
