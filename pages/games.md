@@ -17,11 +17,11 @@ class {
 @DDTITLE@=Games
 @DDDESCRIPTION@=Indie video games made by Dark Dimension. Available for a variety of platforms.
 
-##The king is gone
+## The king is gone
 
 linux/windows | keyboard/mouse | avdl | TBD
 
-<img id="icon" src="@ROOT@/images/icon-the_king_is_gone.png" alt="The king is gone icon"/>
+![The king is gone icon](@ROOT@/images/icon-the_king_is_gone.png "The king is gone icon")
 
 A game about running away, not because one has somewhere to go, but because one has somewhere they
 don't want to be in.

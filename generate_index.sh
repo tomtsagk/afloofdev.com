@@ -6,7 +6,8 @@ TEMPLATE=$(cat template.md)
 ## replace contents with first argument, parse with markdown,
 ## and paste on second argument
 gen_page() {
-	echo -e "${TEMPLATE/@CONTENT@/$1}" | sed "s/@STYLE_PREFIX@//g" | sed "s/@ROOT@/./g" |\
+	content=$(echo $1 | markdown)
+	echo -e "${TEMPLATE/@CONTENT@/${content}}" | sed "s/@STYLE_PREFIX@//g" | sed "s/@ROOT@/./g" |\
 		sed "s/@TITLE@/$3/g" | sed "s/@DESCRIPTION@/$4/g" | markdown > $2
 }
 
@@ -20,14 +21,14 @@ POSTS_CURRENT_TOTAL=0
 for i in `ls -r *`; do
 	date="${i:0:4}${i:4:2}${i:6:2} ${i:8:2}:${i:10:2}"
 	date=$(date --date="$date" +"%Y.%m.%d - %a %H:%M")
-	post="$(cat $i)"
+	post="$(cat $i | markdown)"
 	post="$post\n\n$date\n\n"
 
 	# control lines so the last post has no horizontal line
 	if [ $POSTS_CURRENT -eq 4 -o $POSTS_CURRENT_TOTAL -eq $((POSTS_TOTAL - 1)) ]; then
 		POSTS_CURRENT=0
 	else
-		post="$post---\n\n"
+		post="$post<hr>\n\n"
 		POSTS_CURRENT=$(( $POSTS_CURRENT + 1))
 	fi
 	POSTS_CURRENT_TOTAL=$(( $POSTS_CURRENT_TOTAL + 1))
@@ -75,7 +76,7 @@ while [ ! -z "${CONTENTS[i]}" ]; do
 	pageButton="$previousButton Page $pageIndex / $pagesTotal $nextButton"
 
 	# Always show page index at the bottom of the page
-	CONTENTS[i]=${CONTENTS[i]}"---\n\n$pageButton\n\n"
+	CONTENTS[i]=${CONTENTS[i]}"<hr>\n\n$pageButton\n\n"
 	#CONTENTS[i]="$pageButton\n\n---\n\n${CONTENTS[i]}\n"
 
 	# first page is index, the rest are history

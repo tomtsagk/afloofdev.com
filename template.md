@@ -24,7 +24,11 @@
 
 <hr class="big_horizontal_line"/>
 
+<div class="content">
+
 @CONTENT@
+
+</div>
 
 <hr class="big_horizontal_line"/>
 
