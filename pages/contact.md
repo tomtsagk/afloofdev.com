@@ -1,7 +1,4 @@
-@DDTITLE@=Contact
-@DDDESCRIPTION@=Contact the people behind Dark Dimension, for whatever reason.
-
-<img id="icon" src="@ROOT@/images/icon_tomtsagk.png" alt="Tom Tsagk icon"/>
+<img id="icon" src="../images/icon_tomtsagk.png" alt="Tom Tsagk icon"/>
 
 ##Tom Tsagk
 location: Royal Leamington Spa, UK<br>
@@ -16,7 +13,7 @@ e-mail: tomtsagk@protonmail.com<br>
 
 <!-- Liberapay Donation Button -->
 <a href="https://liberapay.com/DarkDimension/donate" target="_blank">
-	<img src="@ROOT@/images/liberapay_donate.png" alt="Liberapay donate icon"/>
+	<img src="../images/liberapay_donate.png" alt="Liberapay donate icon"/>
 </a>
 
 ####Find me on

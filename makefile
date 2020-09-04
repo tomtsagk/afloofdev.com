@@ -27,12 +27,8 @@ RAW_FILES_SRC=LICENSE style.css favicon.ico logo.png sitemap.xml robots.txt $(wi
 RAW_FILES_DST=$(RAW_FILES_SRC:%=${OUT}/%)
 
 #
-# page files
+# page files, to be parsed from json
 #
-PAGES_SRC=$(wildcard pages/*.md)
-PAGES_OBJ=$(PAGES_SRC:.md=.o)
-PAGES_OUT=$(PAGES_OBJ:%.o=${OUT}/%.html)
-
 PAGES_SRC_JSON=$(wildcard pages/*.json)
 PAGES_OUT_JSON=$(PAGES_SRC_JSON:%.json=${OUT}/%.html)
 
@@ -47,7 +43,7 @@ TEMPLATE=template.md
 #
 # build the whole site
 #
-all: ${DIRECTORIES_DST} ${PAGES_OUT} ${RAW_FILES_DST} ${PAGES_OUT_JSON} # ${INDEX_DST}
+all: ${DIRECTORIES_DST} ${RAW_FILES_DST} ${PAGES_OUT_JSON} # ${INDEX_DST}
 
 #
 # files that have no other rule, are copied to destination
@@ -62,41 +58,15 @@ ${DIRECTORIES_DST}:
 	mkdir -p $@
 
 #
-# build json pages
+# build pages from json
 #
-${OUT}/%.html: %.json ${TEMPLATE}
+${OUT}/%.html: %.json %.md ${TEMPLATE}
 	awk '/@TITLE@/ { sub("@TITLE@", $(shell cat $< | jq .title)); next;}\
 		/@DESCRIPTION@/ { sub("@DESCRIPTION@", $(shell cat $< | jq .description)); }\
-		/@CONTENT@/ { sub("@CONTENT@", $(shell cat $< | jq .content)); }\
+		/@CONTENT@/ { system("cat $(shell jq -r .content $<) | markdown"); next; }\
 		/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../";\
 			result = substr(result, 0, length(result)-1); sub("@ROOT@", result)}\
-		{print}' ${TEMPLATE} > $@
-
-#
-# how to compile all markdown files to "object" files
-#
-# the `awk` line calculates the right path for the root of the project, to find other files in every page
-#
-%.mdo: %.md ${TEMPLATE}
-	awk '/@DDTITLE@/ {sub("@DDTITLE@=", ""); print;}' $< > $@_title
-	awk '/@DDDESCRIPTION@/ {sub("@DDDESCRIPTION@=", ""); print;}' $< > $@_desc
-	awk '/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../";\
-		result = substr(result, 0, length(result)-1); sub("@ROOT@", result)}\
-		/^@/ {next;}\
-		{print}' $< | markdown > $@
-
-#
-# build pages based on their "object" files
-#
-# the `awk` line calculates the right path for the root of the project, to find other files in every page
-# it then replaces the @CONTENT@ value from the template, to the content of the file being compiled
-#
-${OUT}/%.html: %.mdo
-	awk '/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../";\
-		result = substr(result, 0, length(result)-1); sub("@ROOT@", result)}\
-		/@TITLE@/ {getline title < "$<_title"; if (!title) sub("@TITLE@", ""); else { title = ": " title; sub("@TITLE@", title);};}\
-		/@DESCRIPTION@/ {getline desc < "$<_desc"; if (!desc) sub("@DESCRIPTION@", "No description."); else sub("@DESCRIPTION@", desc);}\
-		/@CONTENT@/ {system("cat $<"); next;} {print}' ${TEMPLATE} | markdown > $@
+		{print}' ${TEMPLATE} | markdown > $@
 
 # build index and history
 #${INDEX_DST}: ${POSTS_OBJ} 

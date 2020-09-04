@@ -1,9 +1,6 @@
-@DDTITLE@=Bloopers
-@DDDESCRIPTION@=Things that didn't go as planned, while developing indie video games.
-
 ##checkers error
 
-<img src="@ROOT@/images/icon_bloopers_checkers.png" style="width:400px" alt="Checkers error icon"/>
+<img src="../images/icon_bloopers_checkers.png" style="width:400px" alt="Checkers error icon"/>
 
 i was experimenting with giving different colors to each vertex.
 then i decided to edit the colors to give some sort of "fake lighting" on them. one thing led to another,

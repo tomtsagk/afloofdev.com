@@ -1,11 +1,8 @@
-@DDTITLE@=Memories
-@DDDESCRIPTION@=Projects started by Dark Dimension, and were left either unfinished or abandoned, for a variety of reasons.
-
 ##laughing veil
 
 hand-drawn | gimp | 2016.08
 
-<img src="@ROOT@/images/icon_comic_laughing-veil.png" style="width:300px;" alt="Laughing Veil icon"/>
+<img src="../images/icon_comic_laughing-veil.png" style="width:300px;" alt="Laughing Veil icon"/>
 
 * chapter 1 - <a class="button" href="http://www.theduckwebcomics.com/Laughing_Veil/">theduckwebcomics.com</a>
 
@@ -13,7 +10,7 @@ hand-drawn | gimp | 2016.08
 
 ##just cause
 
-![just-cause](@ROOT@/images/icon_just-cause.png)
+![just-cause](../images/icon_just-cause.png)
 
 this is a page i used to manage, it had one-page webcomics.
 it is now abandoned, in favour of including such art in video games.
@@ -71,7 +68,7 @@ lots of limitations (especially on rotations) but I find it creative
 01.2015 - 08.2015 | android launcher |
 [google play](https://play.google.com/store/apps/details?id=com.darkdimension.darkdimensionlauncher)
 
-<img src="@ROOT@/images/icon_dd-launcher.png" style="width:150px;" alt="Dark Dimension Launcher icon"/>
+<img src="../images/icon_dd-launcher.png" style="width:150px;" alt="Dark Dimension Launcher icon"/>
 
 android launcher, focused on launching apps fast and with little power consumption.
 very small in size, and unique project.

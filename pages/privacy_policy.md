@@ -1,6 +1,3 @@
-@DDTITLE@=Privacy Policy
-@DDDESCRIPTION@=Detailed description of how personal data are being handled within this site.
-
 ##Privacy Policy
 
 No personal data are being saved.
