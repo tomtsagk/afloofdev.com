@@ -61,7 +61,7 @@ ${DIRECTORIES_DST}:
 # build pages from json
 #
 ${OUT}/%.html: %.json %.md ${TEMPLATE}
-	awk '/@TITLE@/ { sub("@TITLE@", $(shell cat $< | jq .title)); next;}\
+	awk '/@TITLE@/ { sub("@TITLE@", $(shell cat $< | jq .title));}\
 		/@DESCRIPTION@/ { sub("@DESCRIPTION@", $(shell cat $< | jq .description)); }\
 		/@CONTENT@/ { system("cat $(shell jq -r .content $<) | markdown"); next; }\
 		/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../";\

@@ -81,11 +81,11 @@ while [ ! -z "${CONTENTS[i]}" ]; do
 
 	# first page is index, the rest are history
 	if [ "$i" -eq 0 ]; then
-		gen_page "${CONTENTS[i]}" _site/index.html ": Home" "Indie video games created with the aim to be unique and creative."
+		gen_page "${CONTENTS[i]}" _site/index.html "Home" "Indie video games created with the aim to be unique and creative."
 	# not first page, so put a "previous" link in the beginning
 	else
 		# generate page
-		gen_page "${CONTENTS[i]}" _site/history_$i.html ": History $i" "Past posts, with updates about upcoming titles. Page $i."
+		gen_page "${CONTENTS[i]}" _site/history_$i.html "History $i" "Past posts, with updates about upcoming titles. Page $i."
 	fi
 	((i++))
 done

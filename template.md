@@ -1,5 +1,5 @@
 <head>
-<title>Dark Dimension@TITLE@</title>
+<title>Dark Dimension: @TITLE@</title>
 <link rel="stylesheet" href="@ROOT@/style.css"/>
 <link rel="shortcut icon" href="@ROOT@/favicon.ico">
 <meta charset="UTF-8">
