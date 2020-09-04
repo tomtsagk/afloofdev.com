@@ -6,6 +6,8 @@ hand-drawn | gimp | 2016.08
 
 * chapter 1 - <a class="button" href="http://www.theduckwebcomics.com/Laughing_Veil/">theduckwebcomics.com</a>
 
+> This project has been abandoned. New art is now focused to be part of future video games.
+
 ---
 
 ##just cause
@@ -19,11 +21,12 @@ it is now abandoned, in favour of including such art in video games.
 
 ##avgdl (ex Clumsy Engine)
 
-01.2018 - now | perl/python |
-[gitlab](https://gitlab.com/tomtsagk/avgdl)
+01.2018 - now | perl/python
 
 an interesting concept for a video game engine
 the aim is to make video games spending as little time as possible.
+
+<a class="button" href="https://notabut.org/tomtsagk/avgdl_perl">notabug</a>
 
 ---
 
@@ -59,21 +62,22 @@ my aim with this project is to make "lightweight" 3d graphics,
 that can run even on a software level. obviously a game without floats has
 lots of limitations (especially on rotations) but I find it creative
 
-**update**: this project has been fused with ddt and is no longer active
+> This project has been fused with `ddt` and is no longer active.
 
 ---
 
 ##dark dimension launcher
 
-01.2015 - 08.2015 | android launcher |
-[google play](https://play.google.com/store/apps/details?id=com.darkdimension.darkdimensionlauncher)
+01.2015 - 08.2015 | android launcher
 
 <img src="../images/icon_dd-launcher.png" style="width:150px;" alt="Dark Dimension Launcher icon"/>
 
 android launcher, focused on launching apps fast and with little power consumption.
 very small in size, and unique project.
 
-**update**: project has been abandoned, there are a few bugs, but the launcher kinda works
+> This project has been abandoned, there are a few bugs, but the launcher kinda works.
+
+<a class="button" href="https://play.google.com/store/apps/details?id=com.darkdimension.darkdimensionlauncher">Google Play</a>
 
 ---
 
@@ -84,4 +88,4 @@ very small in size, and unique project.
 project to create animations using text. the logic is that you describe in a file how
 objects animate inside a scene, and the program renders it.
 
-**update**: the project is left unfinished. i might continue it sometime later.
+> The project is left unfinished. I might continue it sometime later.
