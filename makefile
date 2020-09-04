@@ -23,7 +23,7 @@ DIRECTORIES_DST=${OUT} ${OUT}/pages ${OUT}/images ${OUT}/files
 # raw files that are to be copied as-is on the same
 # path as the source file
 #
-RAW_FILES_SRC=LICENSE style.css favicon.ico logo.png sitemap.xml robots.txt $(wildcard images/*) $(wildcard files/*)
+RAW_FILES_SRC=LICENSE style.css favicon.ico logo.png robots.txt $(wildcard images/*) $(wildcard files/*)
 RAW_FILES_DST=$(RAW_FILES_SRC:%=${OUT}/%)
 
 #
@@ -31,19 +31,24 @@ RAW_FILES_DST=$(RAW_FILES_SRC:%=${OUT}/%)
 #
 PAGES_SRC_JSON=$(wildcard pages/*.json)
 PAGES_OUT_JSON=$(PAGES_SRC_JSON:%.json=${OUT}/%.html)
+PAGES_SRC_MD=$(PAGES_SRC_JSON:%.json=%.md)
+
+#
+# sitemap
+#
+SITEMAP_DST=${OUT}/sitemap.xml
 
 #
 # The template all pages use
 #
 TEMPLATE=template.md
 
-
 ### Rules ###
 
 #
 # build the whole site
 #
-all: ${DIRECTORIES_DST} ${RAW_FILES_DST} ${PAGES_OUT_JSON} # ${INDEX_DST}
+all: ${DIRECTORIES_DST} ${RAW_FILES_DST} ${PAGES_OUT_JSON} ${SITEMAP_DST} # ${INDEX_DST}
 
 #
 # files that have no other rule, are copied to destination
@@ -67,6 +72,14 @@ ${OUT}/%.html: %.json %.md ${TEMPLATE}
 		/@ROOT@/ {n = split("$<", a, "/"); result = "./"; for (i = 0; i < n-1; i++) result = result "../";\
 			result = substr(result, 0, length(result)-1); sub("@ROOT@", result)}\
 		{print}' ${TEMPLATE} | markdown > $@
+
+#
+# sitemap generation
+#
+${SITEMAP_DST}: ${PAGES_SRC_JSON} ${PAGES_SRC_MD}
+	cat sitemap.xml.in > $@
+	echo "<lastmod>$(shell date +%Y-%m-%d)</lastmod></url>" >> $@
+	echo "$(foreach var,${PAGES_SRC_JSON},<url><loc>http://darkdimension.org/${var}</loc><lastmod>$(shell date +%Y-%m-%d)</lastmod></url>)" >> $@
 
 # build index and history
 #${INDEX_DST}: ${POSTS_OBJ} 
