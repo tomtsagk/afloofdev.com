@@ -1,6 +1,13 @@
+# Contact
+
+Interested in the work that is published here?
+Below is some contact information.
+
+---
+
 <img id="icon" src="../images/icon_tomtsagk.png" alt="Tom Tsagk icon"/>
 
-##Tom Tsagk
+## Tom Tsagk
 location: Royal Leamington Spa, UK<br>
 e-mail: tomtsagk@protonmail.com<br>
 
@@ -9,14 +16,14 @@ e-mail: tomtsagk@protonmail.com<br>
 * `ed` is the standard editor!
 * libre software fan
 
-####Like what I do? Here's how to help:
+### Like what I do? Here's how to help:
 
 <!-- Liberapay Donation Button -->
 <a href="https://liberapay.com/DarkDimension/donate" target="_blank">
 	<img src="../images/liberapay_donate.png" alt="Liberapay donate icon"/>
 </a>
 
-####Find me on
+### Find me on
 
 <a class="button" href="https://notabug.org/tomtsagk">NotABug</a> |
 <a class="button" href="https://darkdimension.itch.io/">Itch.io</a> |

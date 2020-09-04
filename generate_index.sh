@@ -11,6 +11,8 @@ gen_page() {
 		sed "s/@TITLE@/$3/g" | sed "s/@DESCRIPTION@/$4/g" | markdown > $2
 }
 
+CONTENTS[0]=$(cat index.md.in | markdown)
+
 # each X number of posts, make a page, starting from index, and moving to history
 cd posts
 PAGE_NUMBER=0

@@ -13,7 +13,7 @@
 
 <img src="@ROOT@/logo.png" style="width: 100px;" alt="Dark Dimension logo"/>
 
-#Dark Dimension
+<p class="dd-title">Dark Dimension</p>
 
 <a class="menu" href="@ROOT@/">Home</a> |
 <a class="menu" href="@ROOT@/pages/games.html">Games</a> |

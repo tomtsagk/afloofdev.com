@@ -1,3 +1,9 @@
+# Bloopers
+
+Things that sometimes didn't go as planned ...
+
+---
+
 ##checkers error
 
 <img src="../images/icon_bloopers_checkers.png" style="width:400px" alt="Checkers error icon"/>

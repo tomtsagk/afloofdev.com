@@ -1,4 +1,4 @@
-##Shuffled Nightmares
+# Shuffled Nightmares
 
 <!--linux/windows | keyboard | avdl | 10.04.2020-->
 
@@ -11,17 +11,17 @@
 * **File Size:** ~12MB compressed
 * **Languages:** English
 
-###Screenshots
+## Screenshots
 
-<img id="screenshot" src="../images/shuffled_nightmares_screenshot_0.png" alt="Shuffled Nightmares screenshot 1"/>
-<img id="screenshot" src="../images/shuffled_nightmares_screenshot_1.png" alt="Shuffled Nightmares screenshot 2"/>
-<img id="screenshot" src="../images/shuffled_nightmares_screenshot_2.png" alt="Shuffled Nightmares screenshot 3"/>
-<img id="screenshot" src="../images/shuffled_nightmares_screenshot_3.png" alt="Shuffled Nightmares screenshot 4"/>
-<img id="screenshot" src="../images/shuffled_nightmares_screenshot_4.png" alt="Shuffled Nightmares screenshot 5"/>
+![Shuffled Nightmares screenshot 1](../images/shuffled_nightmares_screenshot_0.png "Screenshot 1")
+![Shuffled Nightmares screenshot 2](../images/shuffled_nightmares_screenshot_1.png "Screenshot 2")
+![Shuffled Nightmares screenshot 3](../images/shuffled_nightmares_screenshot_2.png "Screenshot 3")
+![Shuffled Nightmares screenshot 4](../images/shuffled_nightmares_screenshot_3.png "Screenshot 4")
+![Shuffled Nightmares screenshot 5](../images/shuffled_nightmares_screenshot_4.png "Screenshot 5")
 
 Download all assets in a compressed file: <a class="menu" href="../files/shuffled_nightmares_assets.zip">shuffled_nightmares_assets.zip</a>
 
-###Description
+## Description
 
 The aim of this game is to rotate pieces of a shuffled puzzle, to reveal a Nightmare. Each level is more challenging than the previous one, with more parts of the puzzle shuffled, and introducing new behavior.
 
@@ -30,13 +30,13 @@ The aim of this game is to rotate pieces of a shuffled puzzle, to reveal a Night
 * 12 levels
 * Random mode, with new challenging patterns to solve
 
-###Controls
+## Controls
 
 `awsd`: move selection around
 
 `<Space>`: confirm choice
 
-###Available on
+## Available on
 
 <a class="button" href="https://store.steampowered.com/app/1289510">Steam</a> |
 <a class="button" href="https://darkdimension.itch.io/shuffled-nightmares">itch.io</a> |

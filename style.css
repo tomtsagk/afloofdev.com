@@ -31,10 +31,6 @@ margin-left: 0px;
 margin-right: 0px;
 }
 
-/* images */
-img {
-}
-
 #icon {
 width: 150px;
 }
@@ -46,11 +42,6 @@ background-color: #cc99ff;
 
 #icon_contact {
 width: 100px;
-}
-
-#screenshot {
-width: 300px;
-margin: 5px;
 }
 
 /* Normal links */
@@ -130,6 +121,7 @@ padding-bottom: 4px;
 border-left: 4px solid #c9f;
 border-radius: 8px;
 display: inline-block;
+margin: 0px;
 }
 
 /*
@@ -178,10 +170,31 @@ padding: 0px;
 .content {
 background: #3335;
 text-align: left;
-margin: 50px;
-padding: 50px;
-padding-top: 25px;
-padding-bottom: 25px;
+margin: 10px;
+padding: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
 border: 1px solid #c9f;
 border-radius: 4px;
+}
+
+/*
+ * "Dark Dimension" copy on top
+ */
+.dd-title {
+font-size: 2em;
+font-weight: bold;
+margin-top: 0.67em;
+margin-bottom: 0.67em;
+}
+
+/*
+ * make sure images do not overflow,
+ * and have a tiny margin when placed on top of
+ * each other
+ *
+ */
+.content img {
+max-width: 100%;
+margin-top: 1px;
 }
