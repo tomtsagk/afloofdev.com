@@ -22,7 +22,7 @@ POSTS_CURRENT=0
 POSTS_CURRENT_TOTAL=0
 for i in `ls -r *`; do
 	date="${i:0:4}${i:4:2}${i:6:2} ${i:8:2}:${i:10:2}"
-	date=$(date --date="$date" +"%Y.%m.%d - %a %H:%M")
+	date="<p class=\"center-aligned\">"$(date --date="$date" +"%Y.%m.%d - %a %H:%M")"</p>"
 	post="$(cat $i | markdown)"
 	post="$post\n\n$date\n\n"
 
@@ -40,6 +40,7 @@ for i in `ls -r *`; do
 	if [ $POST_NUMBER -gt 5 ]; then
 		PAGE_NUMBER=$(($PAGE_NUMBER+1))
 		POST_NUMBER=1
+		CONTENTS[PAGE_NUMBER]=${CONTENTS[PAGE_NUMBER]}$(cat ../index.md.in | sed "s/Page 0/Page ${PAGE_NUMBER}/g" | markdown)
 	fi
 	CONTENTS[PAGE_NUMBER]=${CONTENTS[PAGE_NUMBER]}$post
 done
@@ -75,7 +76,24 @@ while [ ! -z "${CONTENTS[i]}" ]; do
 	fi
 
 	# the final text: <previousButton> Page X / Y <nextButton>
-	pageButton="$previousButton Page $pageIndex / $pagesTotal $nextButton"
+	pageButton="<p class=\"center-aligned\">$previousButton "
+	for (( j=0; j<${pagesTotal}; j++))
+	do
+		if [ $j -eq 0 ]
+		then
+			destination=""
+		else
+			destination=history_$j.html
+		fi
+
+		if [ $i -eq $j ]
+		then
+			pageButton=$pageButton" <a class=\"menu-selected\" href='./$destination'>"$j"</a>"
+		else
+			pageButton=$pageButton" <a class=\"menu\" href='./$destination'>"$j"</a>"
+		fi
+	done
+	pageButton=$pageButton" $nextButton</p>"
 
 	# Always show page index at the bottom of the page
 	CONTENTS[i]=${CONTENTS[i]}"<hr>\n\n$pageButton\n\n"

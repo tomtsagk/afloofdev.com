@@ -88,6 +88,18 @@ color: #222;
 background-color: #96ff66;
 }
 
+/* Menu links - disabled */
+a.menu-selected {
+color: #666;
+padding: 10px;
+text-decoration: none;
+border: 2px solid #666;
+margin: 0px;
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
 /* this makes the point on ul appear next to the text */
 ul {
 display: inline-block;
@@ -197,4 +209,8 @@ margin-bottom: 0.67em;
 .content img {
 max-width: 100%;
 margin-top: 1px;
+}
+
+.center-aligned {
+text-align: center;
 }
