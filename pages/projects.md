@@ -32,7 +32,7 @@ it is now abandoned, in favour of including such art in video games.
 an interesting concept for a video game engine
 the aim is to make video games spending as little time as possible.
 
-<a class="button" href="https://notabut.org/tomtsagk/avgdl_perl">notabug</a>
+<a class="button" href="https://notabug.org/tomtsagk/avgdl_perl">notabug</a>
 
 ---
 

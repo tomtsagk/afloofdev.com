@@ -8,7 +8,7 @@ Video games made with a variety of tools and programming languages.
 
 linux/windows | keyboard/mouse | avdl | TBD
 
-![The king is gone icon](../images/icon-the_king_is_gone.png "The king is gone icon")
+![The king is gone icon](../images/icon-the_king_is_gone.gif "The king is gone icon")
 
 A game about running away, not because one has somewhere to go, but because one has somewhere they
 don't want to be in.
