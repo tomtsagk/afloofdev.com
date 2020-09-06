@@ -5,7 +5,7 @@ Below is some contact information.
 
 ---
 
-<img id="icon" src="../images/icon_tomtsagk.png" alt="Tom Tsagk icon"/>
+![Tom Tsagk icon](../images/icon_tomtsagk.png "That's not really what I look like")
 
 ## Tom Tsagk
 location: Royal Leamington Spa, UK<br>
