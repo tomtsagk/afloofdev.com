@@ -9,7 +9,7 @@ Below is some contact information.
 
 ## Tom Tsagk
 location: Royal Leamington Spa, UK<br>
-e-mail: tomtsagk@protonmail.com<br>
+e-mail: tomtsagk@darkdimension.org<br>
 
 * video game enthusiast
 * enjoy C
