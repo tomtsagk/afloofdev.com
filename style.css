@@ -133,8 +133,10 @@ padding-top: 4px;
 padding-bottom: 4px;
 border-left: 4px solid #c9f;
 border-radius: 8px;
-display: inline-block;
 margin: 0px;
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
 }
 
 /*
