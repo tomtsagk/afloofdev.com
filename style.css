@@ -70,6 +70,7 @@ margin-bottom: 5px;
 a.button:hover {
 background-color: #96ff66;
 color: #222;
+border: 2px solid #96ff66;
 }
 
 /* Menu links */
@@ -87,6 +88,7 @@ margin-bottom: 5px;
 a.menu:hover {
 color: #222;
 background-color: #96ff66;
+border: 2px solid #96ff66;
 }
 
 /* Menu links - disabled */
