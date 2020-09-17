@@ -1,10 +1,3 @@
-# Contact
-
-Interested in the work that is published here?
-Below is some contact information.
-
----
-
 ![Tom Tsagk icon](../images/icon_tomtsagk.png "That's not really what I look like")
 
 ## Tom Tsagk

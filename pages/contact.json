@@ -1,5 +1,8 @@
 {
 	"title": "Contact",
 	"description": "Contact the people behind Dark Dimension, for whatever reason.",
-	"content": "pages/contact.md"
+	"content_static": "pages/contact_static.md",
+	"content": [
+		"pages/contact.md"
+	]
 }

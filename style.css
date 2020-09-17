@@ -103,18 +103,29 @@ margin-top: 5px;
 margin-bottom: 5px;
 }
 
-/* this makes the point on ul appear next to the text */
-ul {
-display: inline-block;
-text-align:left;
-}
-
 /* Same-line code */
 code {
 background: #111;
 padding: 4px;
 border: 1px solid #333;
 border-radius: 8px;
+}
+
+/* Multi line code
+ * in markdown just leave a tab
+ * or four spaces before the code
+ */
+pre {
+background: #111;
+border: 1px solid #333;
+border-radius: 8px;
+padding: 4px;
+}
+
+pre code {
+border: 0;
+background: 0;
+padding: 0;
 }
 
 /*
