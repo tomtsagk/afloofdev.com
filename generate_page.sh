@@ -151,7 +151,7 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 		IFS='/'
 		read -a filearr <<< "$PAGE"
 		unset IFS
-		previousButton="<a class=\"menu\" href='${filearr[-1]}'><</a>"
+		previousButton="<a class=\"menu\" href='${filearr[-1]}'><b><</b></a>"
 	else
 		previousButton=""
 	fi
@@ -164,7 +164,7 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 		IFS='/'
 		read -a filearr <<< "$PAGE"
 		unset IFS
-		nextButton="<a class=\"menu\" href='${filearr[-1]}'>></a>"
+		nextButton="<a class=\"menu\" href='${filearr[-1]}'><b>></b></a>"
 	else
 		nextButton=""
 	fi
@@ -200,9 +200,9 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 
 		if [ $pageCount -eq $j ]
 		then
-			pageButton=$pageButton" <a class=\"menu-selected\" href='$destination'>"$j"</a>"
+			pageButton=$pageButton" <a class=\"menu-selected\" href='$destination'><b>"$j"</b></a>"
 		else
-			pageButton=$pageButton" <a class=\"menu\" href='$destination'>"$j"</a>"
+			pageButton=$pageButton" <a class=\"menu\" href='$destination'><b>"$j"</b></a>"
 		fi
 	done
 	pageButton="<hr>$pageButton $nextButton</p>"
