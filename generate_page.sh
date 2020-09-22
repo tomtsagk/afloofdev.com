@@ -71,7 +71,7 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 	# print all static content to a variable
 	#
 	for j in "${static_content_files[@]}"; do
-		content=$(echo -e "$content $(cat $j | sed s/0/$pageCount/ | markdown)")
+		content=$(echo -e "$content $(cat $j | sed s/0/$pageCount/ | markdown)<hr>")
 	done
 
 	#
@@ -98,6 +98,10 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 			date="<p class=\"center-aligned\">"$(date --date="$date" +"%Y.%m.%d - %a %H:%M")"</p>"
 		else
 			date=""
+		fi
+
+		if [[ $i -ne 0 ]]; then
+			content=$(echo -e "$content<hr class='hidden'>")
 		fi
 
 		#
@@ -201,7 +205,7 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 			pageButton=$pageButton" <a class=\"menu\" href='$destination'>"$j"</a>"
 		fi
 	done
-	pageButton=$pageButton" $nextButton</p>"
+	pageButton="<hr>$pageButton $nextButton</p>"
 	if [ ${#content_files[@]} -le 5 ]
 	then
 		pageButton=""
