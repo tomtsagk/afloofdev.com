@@ -23,7 +23,6 @@ RAW_FILES_DST=$(RAW_FILES_SRC:%=${OUT}/%)
 #
 PAGES_SRC_JSON=$(wildcard index.json pages/*.json)
 PAGES_OUT_JSON=$(PAGES_SRC_JSON:%.json=${OUT}/%.html)
-PAGES_SRC_MD=$(PAGES_SRC_JSON:%.json=%.md)
 
 #
 # sitemap
@@ -46,7 +45,7 @@ all: ${DIRECTORIES_DST} ${RAW_FILES_DST} ${PAGES_OUT_JSON} ${SITEMAP_DST} ${INDE
 # files that have no other rule, are copied to destination
 #
 ${OUT}/%: %
-	cp $^ $@
+	rm -rf $@ && cp -r $^ $@
 
 #
 # build output directories
@@ -67,4 +66,3 @@ ${SITEMAP_DST}: ${PAGES_SRC_JSON}
 	cat sitemap.xml.in > $@
 	echo "<lastmod>$(shell date +%Y-%m-%d)</lastmod></url>" >> $@
 	echo "$(foreach var,${PAGES_OUT_JSON},<url><loc>http://darkdimension.org/${var}</loc><lastmod>$(shell date +%Y-%m-%d)</lastmod></url>)" >> $@
-

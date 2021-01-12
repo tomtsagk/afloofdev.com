@@ -31,4 +31,5 @@ e-mail: tomtsagk@darkdimension.org<br>
 <a class="button" href="https://gamejolt.com/@DarkDimension">GameJolt</a> |
 <a class="button" href="https://twitter.com/darkdimensiongd">Twitter</a> |
 <a class="button" href="https://www.youtube.com/channel/UCEke8kAp4XhodcnM9HIK2Sw">Youtube</a> |
-<a class="button" href="https://notabug.org/tomtsagk">NotABug</a>
+<a class="button" href="https://notabug.org/tomtsagk">NotABug</a> |
+<a class="button" href="https://www.deviantart.com/darkdimensiongd">DeviantArt</a>
