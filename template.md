@@ -28,6 +28,9 @@
 
 <hr class="big_horizontal_line"/>
 
-*dark dimension* - <a class="menu" href="@ROOT@/pages/privacy_policy.html">Privacy Policy</a>
+<a class="button" href="https://twitter.com/darkdimensiongd">
+<img src="@ROOT@/images/social_media/twitter.png"/>
+</a>
+- *dark dimension* - <a class="menu" href="@ROOT@/pages/privacy_policy.html">Privacy Policy</a>
 
 </body>

@@ -71,7 +71,7 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 	# print all static content to a variable
 	#
 	for j in "${static_content_files[@]}"; do
-		content=$(echo -e "$content $(cat $j | sed s/0/$pageCount/ | markdown)")
+		content=$(echo -e "$content $(cat $j | sed s/0/$pageCount/ | markdown)<hr style='display:none;'>")
 	done
 
 	#
@@ -205,7 +205,7 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 			pageButton=$pageButton" <a class=\"menu\" href='$destination'><b>"$j"</b></a>"
 		fi
 	done
-	pageButton="$pageButton $nextButton</p>"
+	pageButton="<hr style='display:none'>$pageButton $nextButton</p>"
 	if [ ${#content_files[@]} -le 5 ]
 	then
 		pageButton=""

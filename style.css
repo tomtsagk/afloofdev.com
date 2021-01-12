@@ -72,6 +72,10 @@ margin-top: 5px;
 margin-bottom: 5px;
 }
 
+a.button img {
+vertical-align: middle;
+}
+
 a.button:hover {
 background-color: #96ff66;
 color: #222;
