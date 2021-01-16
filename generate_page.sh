@@ -159,7 +159,7 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 	#
 	# Next page button
 	#
-	if [ ! -z "${content_files[i+1]}" ]; then
+	if [ ! -z "${content_files[i]}" ]; then
 		PAGE=${strarr[-2]}-$(( $pageCount +1 )).${strarr[-1]}
 		IFS='/'
 		read -a filearr <<< "$PAGE"

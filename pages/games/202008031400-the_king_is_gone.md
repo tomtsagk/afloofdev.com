@@ -1,4 +1,4 @@
-## [The king is gone](the_king_is_gone.html)
+## <a class="menu" href="@ROOT@/pages/the_king_is_gone.html">The king is gone</a>
 
 linux/windows | keyboard/mouse | avdl
 
@@ -12,4 +12,5 @@ In this game, you have to run away. Different doors are blocking the way, that n
 <a class="button" href="https://store.steampowered.com/app/1468820/">Steam</a> |
 <a class="button" href="https://darkdimension.itch.io/the-king-is-gone">Itch.io</a> |
 <a class="button" href="https://gamejolt.com/games/the-king-is-gone/518056">GameJolt</a> |
-<a class="button" href="https://www.indiedb.com/games/the-king-is-gone">IndieDB</a>
+<a class="button" href="https://www.indiedb.com/games/the-king-is-gone">IndieDB</a> |
+<a class="button" href="https://www.voxpopgames.site/store/286">VoxPop</a>
