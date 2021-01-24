@@ -1,0 +1,5 @@
+{
+	"title": "404",
+	"description": "The requested page has not been found.",
+	"content": ["pages/404.md"]
+}
