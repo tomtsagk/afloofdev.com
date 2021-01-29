@@ -1,6 +1,6 @@
 ## Foolish Adventure
 
-hand drawn / digital coloring | gimp
+`hand drawn`, `digital coloring` | `gimp`
 
 ![Foolish Adventure drawing](../images/drawings/foolish_adventure.png "Foolish Adventure")
 

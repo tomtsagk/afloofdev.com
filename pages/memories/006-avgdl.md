@@ -1,6 +1,6 @@
 ## avgdl (ex Clumsy Engine)
 
-01.2018 - 2019 | perl/python
+`01.2018 - 2019` | `perl`, `python`
 
 An interesting concept for a video game engine.
 The aim is to make video games spending as little time as possible.

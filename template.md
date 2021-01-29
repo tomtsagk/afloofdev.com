@@ -11,7 +11,7 @@
 
 <body style="display: none;">
 
-<img src="@ROOT@/logo.png" style="width: 100px;" alt="Dark Dimension logo"/>
+<img src="@ROOT@/logo.png" alt="Dark Dimension logo"/>
 
 <p class="dd-title">Dark Dimension</p>
 
@@ -31,6 +31,9 @@
 <a class="button" href="https://twitter.com/darkdimensiongd">
 <img src="@ROOT@/images/social_media/twitter.png"/>
 </a>
-- *dark dimension* - <a class="menu" href="@ROOT@/pages/privacy_policy.html">Privacy Policy</a>
+<a class="button" href="https://www.patreon.com/darkdimension">
+<img src="@ROOT@/images/social_media/patreon.png"/>
+</a>
+~ *dark dimension* ~ <a class="menu" href="@ROOT@/pages/privacy_policy.html">Privacy Policy</a>
 
 </body>

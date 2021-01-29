@@ -1,6 +1,6 @@
 ## Interpret World Project
 
-04.2017 - 07.2017 | C program | unfinished
+`04.2017 - 07.2017` | `C` | `unfinished`
 
 A new project to make the development of a video game even faster and easier.
 

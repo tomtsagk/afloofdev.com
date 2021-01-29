@@ -1,6 +1,6 @@
 ## Destination Unknown
 
-hand drawn / digital coloring | gimp
+`hand drawn`, `digital coloring` | `gimp`
 
 ![Destination Unknown drawing](../images/drawings/destination_unknown.png "Destination Unknown")
 

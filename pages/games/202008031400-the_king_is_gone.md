@@ -1,6 +1,6 @@
 ## <a class="menu" href="@ROOT@/pages/the_king_is_gone.html">The king is gone</a>
 
-linux/windows | keyboard/mouse | avdl
+`linux`, `windows` | `keyboard`, `mouse` | `avdl`
 
 ![The king is gone icon](../images/the_king_is_gone-stable-cover.png "The king is gone cover")
 

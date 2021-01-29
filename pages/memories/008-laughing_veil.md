@@ -1,6 +1,6 @@
 ## Laughing Veil
 
-hand-drawn | gimp | 2016.08
+`hand drawn` | `gimp` | `2016.08`
 
 <img src="../images/icon_comic_laughing-veil.png" style="width:300px;" alt="Laughing Veil icon"/>
 

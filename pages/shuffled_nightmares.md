@@ -1,8 +1,6 @@
 # Shuffled Nightmares
 
-<!--linux/windows | keyboard | avdl | 10.04.2020-->
-
-<img id="icon" src="../images/icon_shuffled-nightmares.png" alt="Shuffled Nightmares icon"/>
+![Shuffled Nightmares icon](../images/shuffled_nightmares/cover.png "Shuffled Nightmares cover")
 
 * **Developer:** Dark Dimension
 * **Release Date:** 10th of April, 2020
@@ -13,13 +11,11 @@
 
 ## Screenshots
 
-![Shuffled Nightmares screenshot 1](../images/shuffled_nightmares_screenshot_0.png "Screenshot 1")
-![Shuffled Nightmares screenshot 2](../images/shuffled_nightmares_screenshot_1.png "Screenshot 2")
-![Shuffled Nightmares screenshot 3](../images/shuffled_nightmares_screenshot_2.png "Screenshot 3")
-![Shuffled Nightmares screenshot 4](../images/shuffled_nightmares_screenshot_3.png "Screenshot 4")
-![Shuffled Nightmares screenshot 5](../images/shuffled_nightmares_screenshot_4.png "Screenshot 5")
-
-Download all assets in a compressed file: <a class="menu" href="../files/shuffled_nightmares_assets.zip">shuffled_nightmares_assets.zip</a>
+![Shuffled Nightmares screenshot 1](../images/shuffled_nightmares/screenshot_0.png "Screenshot 1")
+![Shuffled Nightmares screenshot 2](../images/shuffled_nightmares/screenshot_1.png "Screenshot 2")
+![Shuffled Nightmares screenshot 3](../images/shuffled_nightmares/screenshot_2.png "Screenshot 3")
+![Shuffled Nightmares screenshot 4](../images/shuffled_nightmares/screenshot_3.png "Screenshot 4")
+![Shuffled Nightmares screenshot 5](../images/shuffled_nightmares/screenshot_4.png "Screenshot 5")
 
 ## Description
 
@@ -32,9 +28,9 @@ The aim of this game is to rotate pieces of a shuffled puzzle, to reveal a Night
 
 ## Controls
 
-`awsd`: move selection around
+`awsd` / mouse : Move selection around.
 
-`<Space>`: confirm choice
+`<Space>` / click : Confirm choice.
 
 ## Available on
 

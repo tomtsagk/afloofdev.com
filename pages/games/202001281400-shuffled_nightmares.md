@@ -1,8 +1,8 @@
 ## <a class="menu" href="@ROOT@/pages/shuffled_nightmares.html">Shuffled Nightmares</a>
 
-linux/windows | keyboard | avdl
+`linux`, `windows` | `keyboard`, `mouse` | `avdl`
 
-<img id="icon" src="../images/icon_shuffled-nightmares.png" alt="Shuffled Nightmares icon"/>
+![Shuffled Nightmares icon](../images/shuffled_nightmares/cover.png "Shuffled Nightmares cover")
 
 The aim of this game is to rotate pieces of a shuffled puzzle, to reveal a Nightmare. Each level is more challenging than the previous one, with more parts of the puzzle shuffled, and introducing new behavior.
 

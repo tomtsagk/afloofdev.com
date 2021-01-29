@@ -1,6 +1,6 @@
 ## Dark Dimension Launcher
 
-01.2015 - 08.2015 | android launcher
+`01.2015 - 08.2015` | `android launcher`
 
 <img src="../images/icon_dd-launcher.png" style="width:150px;" alt="Dark Dimension Launcher icon"/>
 

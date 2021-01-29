@@ -1,6 +1,6 @@
 ## Byte World Project
 
-02.2017 - 04.2017
+`02.2017 - 04.2017`
 
 A project to create 3d graphics, while avoiding floats. Although
 I'm mainly making this to practice the math behing rasterization,
