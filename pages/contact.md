@@ -29,6 +29,7 @@ e-mail: tomtsagk@darkdimension.org<br>
 <a class="button" href="https://store.steampowered.com/developer/darkdimension/">Steam</a> |
 <a class="button" href="https://darkdimension.itch.io/">Itch.io</a> |
 <a class="button" href="https://gamejolt.com/@DarkDimension">GameJolt</a> |
+<a class="button" href="https://play.google.com/store/apps/dev?id=7077678189868052042">Google Play</a> |
 <a class="button" href="https://twitter.com/darkdimensiongd">Twitter</a> |
 <a class="button" href="https://www.youtube.com/channel/UCEke8kAp4XhodcnM9HIK2Sw">Youtube</a> |
 <a class="button" href="https://notabug.org/tomtsagk">NotABug</a> |
