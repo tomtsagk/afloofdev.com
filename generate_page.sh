@@ -217,10 +217,19 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 	content=$(echo -e "$content $pageButton")
 
 	#
+	# prepare page specific details
+	#
+	if [ "$pageCount" -gt 0 ]; then
+		pageTitle="$title #$pageCount"
+	else
+		pageTitle=$title
+	fi
+
+	#
 	# print variable to destination file
 	#
 	echo -e "${TEMPLATE/@CONTENT@/${content}}" | sed "s/@STYLE_PREFIX@//g" | sed "s/@ROOT@/$root/g" |\
-		sed "s/@TITLE@/$title/g" | sed "s/@DESCRIPTION@/$description/g" | markdown > $filename
+		sed "s/@TITLE@/$pageTitle/g" | sed "s/@DESCRIPTION@/$description/g" | markdown > $filename
 
 	pageCount=$(( $pageCount + 1 ))
 
