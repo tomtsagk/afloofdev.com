@@ -42,4 +42,4 @@ To open a door, a puzzle is presented, where pieces of a key have to be rotated 
 <a class="button" href="https://store.steampowered.com/app/1468820/">Steam</a> |
 <a class="button" href="https://darkdimension.itch.io/the-king-is-gone">Itch.io</a> |
 <a class="button" href="https://gamejolt.com/games/the-king-is-gone/518056">GameJolt</a> |
-<a class="button" href="https://www.indiedb.com/games/the-king-is-gone">IndieDB</a>
+<a class="button" href="https://play.google.com/store/apps/details?id=org.darkdimension.the_king_is_gone">Play Store</a>
