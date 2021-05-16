@@ -218,6 +218,45 @@ border-radius: 4px;
 }
 
 /*
+ * grid interface
+ *
+ */
+
+.content-grid {
+overflow: auto;
+display: grid;
+grid-template-columns: 300px 300px 300px;
+grid-gap: 20px;
+justify-content: center;
+}
+
+.content-grid-tile {
+background: #3335;
+text-align: left;
+border: 1px solid #c9f;
+border-radius: 4px;
+height: 400px;
+position: relative;
+}
+
+.content-grid-tile h4 {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.content-grid-tile-description {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.content-grid-tile-price {
+position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+}
+
+/*
  * "Dark Dimension" copy on top
  */
 .dd-title {
@@ -233,9 +272,13 @@ margin-bottom: 0.67em;
  * each other
  *
  */
-.content img {
+img {
 max-width: 100%;
 margin-top: 1px;
+}
+
+.content-grid img {
+margin: 0px;
 }
 
 .center-aligned {

@@ -12,6 +12,7 @@ target_dst=$1
 #
 title=$(jq -r .title $target_src)
 description=$(jq -r .description $target_src)
+contentType=$(jq -r .contentType $target_src)
 
 #
 # get root location based on the filename
@@ -67,6 +68,12 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 
 	content=""
 
+	if [[ $contentType == "grid" ]]
+	then
+		# parent div
+		content=$(echo -e "$content <div class=\"content-grid\">")
+	fi
+
 	#
 	# print all static content to a variable
 	#
@@ -107,12 +114,67 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 		#
 		# apply contents
 		#
-		content=$(echo -e "$content <div class=\"content\">$(cat ${content_files[$i]} | markdown) $date</div>")
+		# grid is showing small tiles, 3 per row
+		# input is json data
+		#
+		if [[ $contentType == "grid" ]]
+		then
+			#content=$(echo -e "$content <div class=\"content-grid\">$(cat ${content_files[$i]} | markdown) $date</div>")
+			gameName=$(jq -r .name ${content_files[$i]})
+			#gameDescription=$(echo -e $(jq -r .description ${content_files[$i]} | markdown))
+			gameDescriptionShort=$(echo -e $(jq -r .description_short ${content_files[$i]}))
+			gameCover=$(jq -r .cover ${content_files[$i]})
+			gamePrice=$(jq -r .price ${content_files[$i]})
+
+			# prepare tile
+			content=$(echo -e "$content <div class=\"content-grid-tile\">")
+
+			# name and description
+			#content=$(echo -e "$content $gameDescription")
+			content=$(echo -e "$content <img src=\"..$gameCover\">")
+			content=$(echo -e "$content <h4>$gameName</h4>\n")
+			content=$(echo -e "$content <p class=\"content-grid-tile-description\">$gameDescriptionShort</p>")
+			content=$(echo -e "$content <p class=\"content-grid-tile-price\">$gamePrice</p>")
+
+#			# links
+#			gameLinkName=$(jq -r .links[0].name ${content_files[$i]})
+#			gameLinkTarget=$(jq -r .links[0].link ${content_files[$i]})
+#			linkNum=1
+#			while [[ "$gameLinkName" != "null" ]]; do
+#				content=$(echo -e "$content $gameLinkName")
+#				content=$(echo -e "$content $gameLinkTarget")
+#				gameLinkName=$(jq -r .links[$linkNum].name ${content_files[$i]})
+#				gameLinkTarget=$(jq -r .links[$linkNum].link ${content_files[$i]})
+#				linkNum=$(($linkNum +1))
+#			done
+#
+#			# screenshots
+#			gameScreenshot=$(jq -r .screenshots[0] ${content_files[$i]})
+#			screenshotNum=1
+#			while [[ "$gameScreenshot" != "null" ]]; do
+#				content=$(echo -e "$content $gameScreenshot")
+#				gameScreenshot=$(jq -r .screenshots[$screenshotNum] ${content_files[$i]})
+#				screenshotNum=$(($screenshotNum +1))
+#			done
+
+			# end tile
+			content=$(echo -e "$content $date</div>")
+
+		# normal markdownw content
+		else
+			content=$(echo -e "$content <div class=\"content\">$(cat ${content_files[$i]} | markdown) $date</div>")
+		fi
 
 		i=$(( $i + 1))
 		j=$(( $j + 1 ))
 
 	done
+
+	if [[ $contentType == "grid" ]]
+	then
+		# parent div close
+		content=$(echo -e "$content </div>")
+	fi
 
 	#
 	# for pages after the first, add `-$i` to its name
