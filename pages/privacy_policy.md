@@ -2,5 +2,5 @@
 
 No personal data are being saved.
 
-This site is only meant to describe projects that are being worked on.
-For this reason cookies are not used, and no information is saved.
+Ads are implemented using the [AdEx](https://www.adex.network/) platform.
+They do not store any personal data, and are full GDPR compliant.
