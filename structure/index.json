@@ -1,8 +1,8 @@
 {
 	"title": "Home",
 	"description": "Indie video games created with the aim to be unique and creative.",
-	"content_static": "index_static.md",
+	"content_static": "md_files/index_static.md",
 	"content": [
-		"posts/*"
+		"md_files/posts/*"
 	]
 }

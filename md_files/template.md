@@ -16,11 +16,11 @@
 <p class="dd-title">Dark Dimension</p>
 
 <a class="menu" href="@ROOT@/">Home</a> |
-<a class="menu" href="@ROOT@/pages/games.html">Games</a> |
-<a class="menu" href="@ROOT@/pages/drawings.html">Drawings</a> |
-<a class="menu" href="@ROOT@/pages/sounds.html">Sounds</a> |
-<a class="menu" href="@ROOT@/pages/contact.html">Contact</a> |
-<a class="menu" href="@ROOT@/pages/memories.html">Memories</a>
+<a class="menu" href="@ROOT@/games.html">Games</a> |
+<a class="menu" href="@ROOT@/drawings.html">Drawings</a> |
+<a class="menu" href="@ROOT@/sounds.html">Sounds</a> |
+<a class="menu" href="@ROOT@/contact.html">Contact</a> |
+<a class="menu" href="@ROOT@/memories.html">Memories</a>
 
 <hr class="big_horizontal_line"/>
 

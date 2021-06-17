@@ -1,8 +1,8 @@
 {
 	"title": "Drawings",
 	"description": "Drawings made by Dark Dimension. Inspired by different events.",
-	"content_static": "pages/drawings_static.md",
+	"content_static": "md_files/drawings_static.md",
 	"content": [
-		"pages/drawings/*"
+		"md_files/drawings/*"
 	]
 }

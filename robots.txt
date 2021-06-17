@@ -1,4 +1,3 @@
 User-agent: *
 Disallow: 
-Disallow: /files/shuffled_nightmares_assets.zip
-Sitemap: http://darkdimension.org/sitemap.xml
+Sitemap: https://darkdimension.org/sitemap.xml

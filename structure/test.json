@@ -1,0 +1,5 @@
+{
+	"title": "Test",
+	"description": "Test page.",
+	"content": ["md_files/test.md", "md_files/test.md"]
+}

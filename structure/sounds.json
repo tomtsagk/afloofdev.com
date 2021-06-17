@@ -1,8 +1,8 @@
 {
 	"title": "Sounds",
 	"description": "Music composed made by Dark Dimension. Mostly likely to be used in video games.",
-	"content_static": "pages/sounds_static.md",
+	"content_static": "md_files/sounds_static.md",
 	"content": [
-		"pages/sounds/*"
+		"md_files/sounds/*"
 	]
 }

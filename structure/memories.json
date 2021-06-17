@@ -1,8 +1,8 @@
 {
 	"title": "Memories",
 	"description": "Projects started by Dark Dimension, and were left either unfinished or abandoned, for a variety of reasons.",
-	"content_static": "pages/memories_static.md",
+	"content_static": "md_files/memories_static.md",
 	"content": [
-		"pages/memories/*"
+		"md_files/memories/*"
 	]
 }

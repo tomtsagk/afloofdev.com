@@ -1,5 +1,5 @@
 {
 	"title": "Shuffled Nightmares",
 	"description": "A puzzle video game. Rotate the pieces of an image to reveal a 'Nightmare'. Contains 12 levels and a random mode.",
-	"content": ["pages/shuffled_nightmares.md"]
+	"content": ["md_files/shuffled_nightmares.md"]
 }

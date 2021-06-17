@@ -1,8 +1,8 @@
 {
 	"title": "Games",
 	"description": "Indie video games made by Dark Dimension. Available for a variety of platforms.",
-	"content_static": "pages/games_static.md",
+	"content_static": "md_files/games_static.md",
 	"content": [
-		"pages/games/*"
+		"md_files/games/*"
 	]
 }

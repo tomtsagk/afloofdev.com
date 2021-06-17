@@ -48,7 +48,7 @@ done
 #
 # template for all pages
 #
-TEMPLATE=$(cat template.md)
+TEMPLATE=$(cat md_files/template.md)
 
 #
 # static content files
