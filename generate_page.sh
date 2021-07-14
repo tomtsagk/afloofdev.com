@@ -84,6 +84,7 @@ i=0
 pageCount=0
 while [[ $i -lt ${#content_files[@]} ]]; do
 
+	hasShownAd=0
 	content=""
 
 	if [[ $contentType == "grid" ]]
@@ -106,7 +107,8 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 	while [[ $i -lt ${#content_files[@]} ]] && [[ $j -lt 5 ]]; do
 
 		# add an ad before the third post on a page with multiple posts
-		if [[ $j -eq 2 ]]; then
+		if [[ $j -eq 2 && $hasShownAd == 0 ]]; then
+			hasShownAd=1
 			content=$(echo -e "$content$ad")
 		fi
 
@@ -183,9 +185,17 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 			# end tile
 			content=$(echo -e "$content $date</div>")
 
-		# normal markdownw content
+		# normal markdown content
 		else
-			content=$(echo -e "$content <div class=\"content\">$(cat ${content_files[$i]} | markdown) $date</div>")
+			localContent=$(cat ${content_files[$i]})
+			if [[ "$localContent" == *"@DD-AD@"* && $hasShownAd == 0 ]]; then
+				echo "show ad"
+				hasShownAd=1
+				localContent=$(echo -e "${localContent/@DD-AD@/$ad}")
+			fi
+			localContent=$(echo -e "${localContent//@DD-AD@/}")
+			localContent=$(echo -e "${localContent}" | markdown)
+			content=$(echo -e "$content <div class=\"content\">$localContent $date</div>")
 		fi
 
 		i=$(( $i + 1))

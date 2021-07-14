@@ -26,6 +26,8 @@ The aim of this game is to rotate pieces of a shuffled puzzle, to reveal a Night
 * 12 levels
 * Random mode, with new challenging patterns to solve
 
+@DD-AD@
+
 ## Controls
 
 `awsd` / mouse : Move selection around.

@@ -24,6 +24,8 @@ In this game, you have to run away. Different doors are blocking the way, that n
 
 To open a door, a puzzle is presented, where pieces of a key have to be rotated and merged together to open the door. The further you run, the more difficult the key puzzles become.
 
+@DD-AD@
+
 **Game Modes:**
 
 * Normal Mode: Score is increasing the more you survive. It decreases the more you stay idle in a room without picking a door. There's a set amount of rooms to complete before reaching the end.
