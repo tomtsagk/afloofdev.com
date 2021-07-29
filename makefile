@@ -9,19 +9,19 @@ OUT=_site
 #
 # directories to put files in
 #
-DIRECTORIES_DST=${OUT} ${OUT}/images
+DIRECTORIES_DST=${OUT} ${OUT}/images ${OUT}/images/games ${OUT}/images/games/rue
 
 #
 # raw files that are to be copied as-is on the same
 # path as the source file
 #
-RAW_FILES_SRC=LICENSE style.css favicon.ico logo.png robots.txt $(wildcard images/*)
+RAW_FILES_SRC=LICENSE style.css favicon.ico logo.png robots.txt $(wildcard images/*) $(wildcard images/games/rue/*)
 RAW_FILES_DST=$(RAW_FILES_SRC:%=${OUT}/%)
 
 #
 # page files, to be parsed from json
 #
-PAGES_SRC_JSON=$(wildcard structure/*.json)
+PAGES_SRC_JSON=$(wildcard structure/*.json) $(wildcard structure/games/*.json)
 PAGES_OUT_JSON=$(PAGES_SRC_JSON:structure/%.json=${OUT}/%.html)
 
 #
