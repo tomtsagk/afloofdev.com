@@ -59,7 +59,7 @@ that appears on the screen when the game is run. It looks like this:
 
 ## What's next?
 
-These are all the important theory of how `avdl` works.
+This is all the important theory of how `avdl` works.
 Using this knowledge, the next step is to dive into the action,
 and learn how to make a "Hello, World!" program:
 

@@ -1,4 +1,4 @@
-# Abstract Video-game Development Language - avdl
+# avdl
 
 This is a high level programming language, to create 3D games.
 
