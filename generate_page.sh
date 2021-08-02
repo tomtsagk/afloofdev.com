@@ -194,7 +194,9 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 				localContent=$(echo -e "${localContent/@DD-AD@/$ad}")
 			fi
 			localContent=$(echo -e "${localContent//@DD-AD@/}")
-			localContent=$(echo -e "${localContent}" | markdown)
+			if [[ $contentType != "html" ]]; then
+				localContent=$(echo -e "${localContent}" | markdown)
+			fi
 			content=$(echo -e "$content <div class=\"content\">$localContent $date</div>")
 		fi
 
@@ -324,7 +326,7 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 	# print variable to destination file
 	#
 	echo -e "${TEMPLATE/@CONTENT@/${content}}" | sed "s/@STYLE_PREFIX@//g" | sed "s/@ROOT@/$root/g" |\
-		sed "s/@TITLE@/$pageTitle/g" | sed "s/@DESCRIPTION@/$description/g" | markdown > $filename
+		sed "s/@TITLE@/$pageTitle/g" | sed "s/@DESCRIPTION@/$description/g" > $filename
 
 	pageCount=$(( $pageCount + 1 ))
 

@@ -1,0 +1,7 @@
+{
+	"title": "About",
+	"description": "What is Dark Dimension, and what's the story behind it?",
+	"content": [
+		"md_files/about.md"
+	]
+}

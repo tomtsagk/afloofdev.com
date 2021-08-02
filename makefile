@@ -9,7 +9,7 @@ OUT=_site
 #
 # directories to put files in
 #
-DIRECTORIES_DST=${OUT} ${OUT}/images ${OUT}/images/games ${OUT}/images/games/rue
+DIRECTORIES_DST=${OUT} ${OUT}/images ${OUT}/images/games ${OUT}/images/games/rue ${OUT}/games ${OUT}/avdl
 
 #
 # raw files that are to be copied as-is on the same
@@ -21,7 +21,7 @@ RAW_FILES_DST=$(RAW_FILES_SRC:%=${OUT}/%)
 #
 # page files, to be parsed from json
 #
-PAGES_SRC_JSON=$(wildcard structure/*.json) $(wildcard structure/games/*.json)
+PAGES_SRC_JSON=$(wildcard structure/*.json) $(wildcard structure/games/*.json) $(wildcard structure/avdl/*.json)
 PAGES_OUT_JSON=$(PAGES_SRC_JSON:structure/%.json=${OUT}/%.html)
 
 #

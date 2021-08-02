@@ -1,6 +1,6 @@
 # Rue
 
-![Rue cover](../images/games/rue/cover.png "Rue cover")-->
+![Rue cover](../images/games/rue/cover.png "Rue cover")
 
 * **Developer:** Dark Dimension
 * **Release Date:** 25th of July, 2021
@@ -32,4 +32,9 @@ This game is currently in Alpha and still under active development.
 
 <a class="button" href="https://darkdimension.itch.io/rue">Itch.io</a> |
 <a class="button" href="https://gamejolt.com/games/rue/632453">GameJolt</a> |
-<a class="button" href="https://play.google.com/store/apps/details?id=org.darkdimension.rue">Play Store</a>
+<a class="button" href="https://play.google.com/store/apps/details?id=org.darkdimension.rue">Play Store</a> |
+<a class="button" href="https://aur.archlinux.org/packages/rue/">Arch Linux AUR</a>
+
+## Find the source code on
+
+<a class="button" href="https://notabug.org/tomtsagk/rue">NotABug</a>
