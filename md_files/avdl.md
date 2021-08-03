@@ -7,7 +7,7 @@ an abstract way. It then becomes the compiler's responsibility
 of converting that to an actual, executable video game for
 each platform.
 
-To get an idea of what this language has achieved so far,
+To get a view of what this language has achieved so far,
 here are some games made with it:
 
 <a class="menu" href="@ROOT@/games/rue.html">Rue</a> |
@@ -45,7 +45,7 @@ The introduction below shows how the language works behind the scenes
 and what kind of data it expects from the programmer, to properly
 understand what the game is intended to look like.
 
-<a class="menu" href="@ROOT@/avdl/introduction.html">Introduction</a>
+<a class="menu" href="@ROOT@/avdl/introduction.html">avdl - Introduction</a>
 
 For those eager enough to dive in, below is a tutorial of how to
 make a "Hello, World!" program in `avdl`. It displays a rotating
