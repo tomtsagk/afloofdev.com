@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 ad="
 <iframe src=\"https://viewm.moonicorn.network/#%7B%22options%22%3A%7B%22publisherAddr%22%3A%220x4C191717BA8F3b5Ee19e5B4F6975023529E5984C%22%2C%22whitelistedTokens%22%3A%5B%220x6B175474E89094C44Da98b954EedeAC495271d0F%22%5D%2C%22whitelistedType%22%3A%22legacy_300x250%22%2C%22randomize%22%3Atrue%2C%22targeting%22%3A%5B%5D%2C%22width%22%3A%22300%22%2C%22height%22%3A%22250%22%2C%22minPerImpression%22%3A%220%22%2C%22fallbackUnit%22%3A%22QmX2SLnCVEB1c8kY41tM4cLPtXi3h5XFMuNi4Lt1bfvjyf%22%2C%22marketSlot%22%3A%22QmNN1UY4iNekLWjDVodtvZfSKgWCnf9UU7PXsDQRHDEAdG%22%7D%7D\"
