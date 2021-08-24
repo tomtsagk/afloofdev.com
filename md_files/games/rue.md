@@ -1,6 +1,6 @@
 # Rue
 
-![Rue cover](../images/games/rue/cover.png "Rue cover")
+![Rue cover](@ROOT@/images/games/rue/cover.png "Rue cover")
 
 * **Developer:** Dark Dimension
 * **Release Date:** 25th of July, 2021
@@ -10,11 +10,11 @@
 
 ## Screenshots
 
-![Rue screenshot 1](../images/games/rue/screenshot_1.png "Screenshot 1")
-![Rue screenshot 2](../images/games/rue/screenshot_2.png "Screenshot 2")
-![Rue screenshot 3](../images/games/rue/screenshot_3.png "Screenshot 3")
-![Rue screenshot 4](../images/games/rue/screenshot_4.png "Screenshot 4")
-![Rue screenshot 5](../images/games/rue/screenshot_5.png "Screenshot 5")
+![Rue screenshot 1](@ROOT@/images/games/rue/screenshot_1.png "Screenshot 1")
+![Rue screenshot 2](@ROOT@/images/games/rue/screenshot_2.png "Screenshot 2")
+![Rue screenshot 3](@ROOT@/images/games/rue/screenshot_3.png "Screenshot 3")
+![Rue screenshot 4](@ROOT@/images/games/rue/screenshot_4.png "Screenshot 4")
+![Rue screenshot 5](@ROOT@/images/games/rue/screenshot_5.png "Screenshot 5")
 
 ## Description
 

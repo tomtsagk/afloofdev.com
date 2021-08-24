@@ -2,7 +2,7 @@
 
 `linux`, `windows` | `keyboard`, `mouse` | `avdl`
 
-![The king is gone icon](../images/the_king_is_gone-stable-cover.png "The king is gone cover")
+![The king is gone icon](@ROOT@/images/the_king_is_gone-stable-cover.png "The king is gone cover")
 
 A puzzle game about running, not because one has somewhere to be,
 but because one has somewhere they don't want to be.

@@ -1,6 +1,6 @@
 # The king is gone
 
-![The king is gone icon](../images/the_king_is_gone-stable-cover.png "The king is gone cover")
+![The king is gone icon](@ROOT@/images/the_king_is_gone-stable-cover.png "The king is gone cover")
 
 * **Developer:** Dark Dimension
 * **Release Date:** 15th of December, 2020
@@ -10,11 +10,11 @@
 
 ## Screenshots
 
-![The king is gone screenshot 1](../images/the_king_is_gone-screenshot-1.png "Screenshot 1")
-![The king is gone screenshot 2](../images/the_king_is_gone-screenshot-2.png "Screenshot 2")
-![The king is gone screenshot 3](../images/the_king_is_gone-screenshot-3.png "Screenshot 3")
-![The king is gone screenshot 4](../images/the_king_is_gone-screenshot-4.png "Screenshot 4")
-![The king is gone screenshot 5](../images/the_king_is_gone-screenshot-5.png "Screenshot 5")
+![The king is gone screenshot 1](@ROOT@/images/the_king_is_gone-screenshot-1.png "Screenshot 1")
+![The king is gone screenshot 2](@ROOT@/images/the_king_is_gone-screenshot-2.png "Screenshot 2")
+![The king is gone screenshot 3](@ROOT@/images/the_king_is_gone-screenshot-3.png "Screenshot 3")
+![The king is gone screenshot 4](@ROOT@/images/the_king_is_gone-screenshot-4.png "Screenshot 4")
+![The king is gone screenshot 5](@ROOT@/images/the_king_is_gone-screenshot-5.png "Screenshot 5")
 
 ## Description
 

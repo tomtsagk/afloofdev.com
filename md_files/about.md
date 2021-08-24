@@ -26,7 +26,7 @@ That's when the name **Dark Dimension** was born, to describe that place.
 
 ## Who am I?
 
-![Tom Tsagk icon](../images/icon_tomtsagk.png "That's not really what I look like")
+![Tom Tsagk icon](@ROOT@/images/icon_tomtsagk.png "That's not really what I look like")
 
 ### Tom Tsagk
 
