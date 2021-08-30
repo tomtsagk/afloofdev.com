@@ -58,17 +58,17 @@ e-mail: tomtsagk@darkdimension.org<br>
 <a class="button" href="https://play.google.com/store/apps/dev?id=7077678189868052042">Google Play</a> |
 <a class="button" href="https://twitter.com/darkdimensiongd">Twitter</a> |
 <a class="button" href="https://www.youtube.com/channel/UCEke8kAp4XhodcnM9HIK2Sw">Youtube</a> |
-<a class="button" href="https://notabug.org/tomtsagk">NotABug</a> |
+<a class="button" href="https://github.com/tomtsagk">Github</a> |
 <a class="button" href="https://www.deviantart.com/darkdimensiongd">DeviantArt</a>
 
 ---
 
 ## DarkDimension.org
 
-This site is open-source, for the sake of transparency. It was made from scratch using Markdown, and some custom
+This site is open-source, and deployed automatically. It was made from scratch using Markdown, and some custom
 Bash scripts. Extra care has been taken to make sure this site is functional on smaller screens, like mobile phones,
 but also from text-based browsers.
 
-You can view the source code at:
+Checkout the source code and contribute here:
 
-<a class="button" href="https://www.notabug.org/tomtsagk/darkdimension.org">NotABug</a>
+<a class="button" href="https://github.com/tomtsagk/darkdimension.org">Github</a>

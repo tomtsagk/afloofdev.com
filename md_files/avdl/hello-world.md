@@ -331,7 +331,7 @@ Once this is done, it will create an executable called `game` in the same direct
 By running that, a window should pop-up with a rotating triangle with a pale violet colour.
 
 You can find this file in the `avdl` repository, under `samples/hello-world/hello-world.dd` here:
-<a class="button" href="https://notabug.org/tomtsagk/rue">NotABug</a>
+<a class="button" href="https://github.com/tomtsagk/avdl">Github</a>
 
 ---
 

@@ -37,4 +37,4 @@ This game is currently in Alpha and still under active development.
 
 ## Find the source code on
 
-<a class="button" href="https://notabug.org/tomtsagk/rue">NotABug</a>
+<a class="button" href="https://github.com/tomtsagk/rue">Github</a>

@@ -57,4 +57,4 @@ triangle, which is pale violet in colour.
 
 ## Find the source code on
 
-<a class="button" href="https://notabug.org/tomtsagk/avdl">NotABug</a>
+<a class="button" href="https://github.com/tomtsagk/avdl">Github</a>
