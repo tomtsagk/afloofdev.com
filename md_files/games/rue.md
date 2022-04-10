@@ -30,10 +30,17 @@ This game is currently in Alpha and still under active development.
 
 ## Available on
 
+<a class="button" href="https://store.steampowered.com/app/1707310">Steam</a> |
 <a class="button" href="https://darkdimension.itch.io/rue">Itch.io</a> |
-<a class="button" href="https://gamejolt.com/games/rue/632453">GameJolt</a> |
 <a class="button" href="https://play.google.com/store/apps/details?id=org.darkdimension.rue">Play Store</a> |
+<a class="button" href="https://snapcraft.io/darkdimension-rue">Snap Store</a> |
+<a class="button" href="https://www.microsoft.com/en-gb/p/rue-card-game/9nn5mtm0vbkc">Microsoft Store</a>
+
+<details>
+<summary>More Platforms</summary>
+<a class="button" href="https://gamejolt.com/games/rue/632453">GameJolt</a> |
 <a class="button" href="https://aur.archlinux.org/packages/rue/">Arch Linux AUR</a>
+</details>
 
 ## Find the source code on
 

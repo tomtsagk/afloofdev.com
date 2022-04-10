@@ -5,8 +5,9 @@
 <meta charset="UTF-8">
 <meta name="keywords" content="darkdimension, dark dimension, video games, avdl">
 <meta name="description" content="@DESCRIPTION@">
-<meta name="author" content="Tom Tsagk (TomTsagk@protonmail.com)">
+<meta name="author" content="Tom Tsagk (TomTsagk@darkdimension.org)">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
 </head>
 
 <body style="display: none;">
