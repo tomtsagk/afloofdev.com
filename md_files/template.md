@@ -8,6 +8,7 @@
 <meta name="author" content="Tom Tsagk (TomTsagk@darkdimension.org)">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
+<script data-ad-client="ca-pub-8235976799219035" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body style="display: none;">
