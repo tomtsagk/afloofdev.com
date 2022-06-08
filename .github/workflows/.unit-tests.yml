@@ -1,0 +1,24 @@
+#
+# checks if the project can be compiled and is valid
+#
+name: Unit Tests
+
+#
+# run on all pushes and pull requests
+#
+on: [push, pull_request]
+
+#
+# the only job is to compile and upload the project
+#
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Install Dependencies
+        shell: bash
+        run: sudo apt-get update && sudo apt-get -y install markdown jq make
+      - name: Compile
+        shell: bash
+        run: make
