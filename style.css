@@ -306,3 +306,13 @@ position:relative;
 top: -40px;
 left: 3px;
 }
+
+.dd-promo {
+border: 1px solid #c9f;
+border-radius: 4px;
+padding: 20px;
+margin: 5px;
+text-align: center;
+display:inline-block;
+background-color: #181818;
+}

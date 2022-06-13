@@ -1,22 +1,10 @@
 #!/bin/bash
 
-ad="
-<iframe src=\"https://viewm.moonicorn.network/#%7B%22options%22%3A%7B%22publisherAddr%22%3A%220x4C191717BA8F3b5Ee19e5B4F6975023529E5984C%22%2C%22whitelistedTokens%22%3A%5B%220x6B175474E89094C44Da98b954EedeAC495271d0F%22%5D%2C%22whitelistedType%22%3A%22legacy_300x250%22%2C%22randomize%22%3Atrue%2C%22targeting%22%3A%5B%5D%2C%22width%22%3A%22300%22%2C%22height%22%3A%22250%22%2C%22minPerImpression%22%3A%220%22%2C%22fallbackUnit%22%3A%22QmX2SLnCVEB1c8kY41tM4cLPtXi3h5XFMuNi4Lt1bfvjyf%22%2C%22marketSlot%22%3A%22QmNN1UY4iNekLWjDVodtvZfSKgWCnf9UU7PXsDQRHDEAdG%22%7D%7D\"
-	width=\"300\"
-	height=\"250\"
-	scrolling=\"no\"
-	frameborder=\"0\"
-	style=\"border: 0;\"
-	onload=\"window.addEventListener('message', function(ev) {
-		if (ev.data.hasOwnProperty('adexHeight') && ('https://viewm.moonicorn.network' === ev.origin)) {
-			for (let f of document.getElementsByTagName('iframe')) {
-				if (f.contentWindow === ev.source) {
-					f.height = ev.data.adexHeight;
-				}
-			}
-		}
-	}, false)\"
-></iframe>"
+ad="<div class='dd-promo'>Support my work<br><br>
+<a href='https://ko-fi.com/I2I332LSO' target='_blank'>
+	<img height='36' style='border:0px;height:36px;'
+		src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+</a></div>"
 
 #
 # source is the json file that describes a page
