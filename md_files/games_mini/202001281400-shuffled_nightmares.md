@@ -1,4 +1,4 @@
-## <a class="menu" href="@ROOT@/pages/shuffled_nightmares.html">Shuffled Nightmares</a>
+## <a class="menu" href="@ROOT@/shuffled_nightmares.html">Shuffled Nightmares</a>
 
 `linux`, `windows`, `android` | `keyboard`, `mouse` | `avdl`
 
