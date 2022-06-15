@@ -10,9 +10,9 @@ each platform.
 To get a view of what this language has achieved so far,
 here are some games made with it:
 
-<a class="menu" href="@ROOT@/games/rue.html">Rue</a> |
-<a class="menu" href="@ROOT@/the_king_is_gone.html">The king is gone</a> |
-<a class="menu" href="@ROOT@/shuffled_nightmares.html">Shuffled Nightmares</a>
+<a class="menu" href="/games/rue.html">Rue</a> |
+<a class="menu" href="/the_king_is_gone.html">The king is gone</a> |
+<a class="menu" href="/shuffled_nightmares.html">Shuffled Nightmares</a>
 
 ---
 
@@ -45,13 +45,13 @@ The introduction below shows how the language works behind the scenes
 and what kind of data it expects from the programmer, to properly
 understand what the game is intended to look like.
 
-<a class="menu" href="@ROOT@/avdl/introduction.html">avdl - Introduction</a>
+<a class="menu" href="/avdl/introduction.html">avdl - Introduction</a>
 
 For those eager enough to dive in, below is a tutorial of how to
 make a "Hello, World!" program in `avdl`. It displays a rotating
 triangle, which is pale violet in colour.
 
-<a class="menu" href="@ROOT@/avdl/hello-world.html">avdl - Hello, World!</a>
+<a class="menu" href="/avdl/hello-world.html">avdl - Hello, World!</a>
 
 ---
 

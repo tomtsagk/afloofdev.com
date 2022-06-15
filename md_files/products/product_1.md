@@ -1,4 +1,4 @@
-![The king is gone icon](@ROOT@/images/the_king_is_gone-stable-cover.png "The king is gone cover")
+![The king is gone icon](/images/the_king_is_gone-stable-cover.png "The king is gone cover")
 
 Text description
 

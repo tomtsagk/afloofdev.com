@@ -2,7 +2,7 @@
 
 `hand drawn`, `digital coloring` | `gimp`
 
-![Destination Unknown drawing](@ROOT@/images/drawings/destination_unknown.png "Destination Unknown")
+![Destination Unknown drawing](/images/drawings/destination_unknown.png "Destination Unknown")
 
 Describes the feeling of falling, without being able to do anything to stop it.
 

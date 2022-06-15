@@ -2,7 +2,7 @@
 
 `01.2015 - 08.2015` | `android launcher`
 
-<img src="@ROOT@/images/icon_dd-launcher.png" style="width:150px;" alt="Dark Dimension Launcher icon"/>
+<img src="/images/icon_dd-launcher.png" style="width:150px;" alt="Dark Dimension Launcher icon"/>
 
 Android launcher, focused on launching apps fast and with little power consumption.
 Very small in size, and unique concept.

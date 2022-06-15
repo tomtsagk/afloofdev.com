@@ -2,7 +2,7 @@
 
 `hand drawn`, `digital coloring` | `gimp`
 
-![Foolish Adventure drawing](@ROOT@/images/drawings/foolish_adventure.png "Foolish Adventure")
+![Foolish Adventure drawing](/images/drawings/foolish_adventure.png "Foolish Adventure")
 
 A carefree adventurer discovering the wonders of the world.
 
