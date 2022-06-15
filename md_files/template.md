@@ -1,6 +1,6 @@
 <head>
 <title>Dark Dimension: @TITLE@</title>
-<link rel="stylesheet" href="@ROOT@/style.css"/>
+<link rel="stylesheet" href="./style.css"/>
 <link rel="shortcut icon" href="@ROOT@/favicon.ico">
 <meta charset="UTF-8">
 <meta name="keywords" content="darkdimension, dark dimension, video games, avdl">
