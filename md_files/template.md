@@ -1,7 +1,7 @@
 <head>
 <title>Dark Dimension: @TITLE@</title>
 <link rel="stylesheet" href="/style.css"/>
-<link rel="shortcut icon" href="@ROOT@/favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico">
 <meta charset="UTF-8">
 <meta name="keywords" content="darkdimension, dark dimension, video games, avdl">
 <meta name="description" content="@DESCRIPTION@">
@@ -12,16 +12,16 @@
 
 <body style="display: none;">
 
-<img src="@ROOT@/logo.png" alt="Dark Dimension logo" title="Dark Dimension Logo"/>
+<img src="/logo.png" alt="Dark Dimension logo" title="Dark Dimension Logo"/>
 
 <p class="dd-title">Dark Dimension</p>
 
-<a class="menu" href="@ROOT@/">Home</a> |
-<a class="menu" href="@ROOT@/games.html">Games</a> |
-<a class="menu" href="@ROOT@/drawings.html">Drawings</a> |
-<a class="menu" href="@ROOT@/sounds.html">Sounds</a> |
-<a class="menu" href="@ROOT@/avdl.html">avdl</a> |
-<a class="menu" href="@ROOT@/memories.html">Memories</a>
+<a class="menu" href="/">Home</a> |
+<a class="menu" href="/games.html">Games</a> |
+<a class="menu" href="/drawings.html">Drawings</a> |
+<a class="menu" href="/sounds.html">Sounds</a> |
+<a class="menu" href="/avdl.html">avdl</a> |
+<a class="menu" href="/memories.html">Memories</a>
 
 <hr class="big_horizontal_line"/>
 
@@ -30,12 +30,12 @@
 <hr class="big_horizontal_line"/>
 
 <a class="button" href="https://twitter.com/darkdimensiongd">
-<img src="@ROOT@/images/social_media/twitter.png" title="Follow me on twitter" alt="Dark Dimension on Twitter"/>
+<img src="/images/social_media/twitter.png" title="Follow me on twitter" alt="Dark Dimension on Twitter"/>
 </a>
 <a class="button" href="https://www.patreon.com/darkdimension" title="Support me on Patreon" alt="Dark Dimension on Patreon">
-<img src="@ROOT@/images/social_media/patreon.png"/>
+<img src="/images/social_media/patreon.png"/>
 </a>
-~ <i>dark dimension</i> ~ <a class="menu" href="@ROOT@/privacy_policy.html">Privacy Policy</a> |
-<a class="menu" href="@ROOT@/about.html">About</a>
+~ <i>dark dimension</i> ~ <a class="menu" href="/privacy_policy.html">Privacy Policy</a> |
+<a class="menu" href="/about.html">About</a>
 
 </body>
