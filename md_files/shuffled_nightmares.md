@@ -1,6 +1,6 @@
 # Shuffled Nightmares
 
-![Shuffled Nightmares icon](@ROOT@/images/shuffled_nightmares/cover.png "Shuffled Nightmares cover")
+![Shuffled Nightmares icon](/images/shuffled_nightmares/cover.png "Shuffled Nightmares cover")
 
 * **Developer:** Dark Dimension
 * **Release Date:** 10th of April, 2020
@@ -11,11 +11,11 @@
 
 ## Screenshots
 
-![Shuffled Nightmares screenshot 1](@ROOT@/images/shuffled_nightmares/screenshot_0.png "Screenshot 1")
-![Shuffled Nightmares screenshot 2](@ROOT@/images/shuffled_nightmares/screenshot_1.png "Screenshot 2")
-![Shuffled Nightmares screenshot 3](@ROOT@/images/shuffled_nightmares/screenshot_2.png "Screenshot 3")
-![Shuffled Nightmares screenshot 4](@ROOT@/images/shuffled_nightmares/screenshot_3.png "Screenshot 4")
-![Shuffled Nightmares screenshot 5](@ROOT@/images/shuffled_nightmares/screenshot_4.png "Screenshot 5")
+![Shuffled Nightmares screenshot 1](/images/shuffled_nightmares/screenshot_0.png "Screenshot 1")
+![Shuffled Nightmares screenshot 2](/images/shuffled_nightmares/screenshot_1.png "Screenshot 2")
+![Shuffled Nightmares screenshot 3](/images/shuffled_nightmares/screenshot_2.png "Screenshot 3")
+![Shuffled Nightmares screenshot 4](/images/shuffled_nightmares/screenshot_3.png "Screenshot 4")
+![Shuffled Nightmares screenshot 5](/images/shuffled_nightmares/screenshot_4.png "Screenshot 5")
 
 ## Description
 
