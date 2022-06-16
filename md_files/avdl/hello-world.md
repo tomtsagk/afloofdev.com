@@ -4,7 +4,7 @@ This page will show a "Hello, World!" program made in `avdl`.
 It will explain all the basic details to show all skills
 needed to make a very basic game.
 
-Back to main page: <a class="menu" href="/avdl.html">avdl</a>
+Back to main page: <a class="menu" href="/avdl">avdl</a>
 
 ---
 
@@ -342,4 +342,4 @@ As it evolved, more tutorials will be added here.
 
 Until then, move back to the main page:
 
-<a class="menu" href="/avdl.html">avdl</a>
+<a class="menu" href="/avdl">avdl</a>

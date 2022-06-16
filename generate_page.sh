@@ -177,7 +177,7 @@ while [[ $i -lt ${#content_files[@]} ]]; do
 		else
 			localContent=$(cat ${content_files[$i]})
 			if [[ "$localContent" == *"@DD-AD@"* && $hasShownAd == 0 ]]; then
-				echo "show ad"
+				#echo "show ad"
 				hasShownAd=1
 				localContent=$(echo -e "${localContent/@DD-AD@/$ad}")
 			fi

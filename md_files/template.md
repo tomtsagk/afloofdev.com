@@ -17,11 +17,11 @@
 <p class="dd-title">Dark Dimension</p>
 
 <a class="menu" href="/">Home</a> |
-<a class="menu" href="/games.html">Games</a> |
-<a class="menu" href="/drawings.html">Drawings</a> |
-<a class="menu" href="/sounds.html">Sounds</a> |
-<a class="menu" href="/avdl.html">avdl</a> |
-<a class="menu" href="/memories.html">Memories</a>
+<a class="menu" href="/games">Games</a> |
+<a class="menu" href="/drawings">Drawings</a> |
+<a class="menu" href="/sounds">Sounds</a> |
+<a class="menu" href="/avdl">avdl</a> |
+<a class="menu" href="/memories">Memories</a>
 
 <hr class="big_horizontal_line"/>
 
@@ -35,7 +35,7 @@
 <a class="button" href="https://www.patreon.com/darkdimension" title="Support me on Patreon" alt="Dark Dimension on Patreon">
 <img src="/images/social_media/patreon.png"/>
 </a>
-~ <i>dark dimension</i> ~ <a class="menu" href="/privacy_policy.html">Privacy Policy</a> |
-<a class="menu" href="/about.html">About</a>
+~ <i>dark dimension</i> ~ <a class="menu" href="/privacy_policy">Privacy Policy</a> |
+<a class="menu" href="/about">About</a>
 
 </body>

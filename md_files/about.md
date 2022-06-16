@@ -26,9 +26,9 @@ That's when the name **Dark Dimension** was born, to describe that place.
 
 ## Who am I?
 
-![Tom Tsagk icon](/images/icon_tomtsagk.png "That's not really what I look like")
+![Tom Tsagkatos icon](/images/icon_tomtsagk.png "Yup, that's me!")
 
-### Tom Tsagk
+### Tom Tsagkatos
 
 I'm a self-taught programmer, with interest in game design.
 I've been developing video games since around 2012, with no signs
