@@ -10,9 +10,9 @@ each platform.
 To get a view of what this language has achieved so far,
 here are some games made with it:
 
-<a class="menu" href="/games/rue.html">Rue</a> |
-<a class="menu" href="/the_king_is_gone.html">The king is gone</a> |
-<a class="menu" href="/shuffled_nightmares.html">Shuffled Nightmares</a>
+<a class="menu" href="/games/rue">Rue</a> |
+<a class="menu" href="/games/the_king_is_gone">The king is gone</a> |
+<a class="menu" href="/games/shuffled_nightmares">Shuffled Nightmares</a>
 
 ---
 

@@ -4,7 +4,7 @@ This page will explain the basic concepts before someone
 can start developing games using the `avdl` programming
 language.
 
-Back to main page: <a class="menu" href="/avdl.html">avdl</a>
+Back to main page: <a class="menu" href="/avdl">avdl</a>
 
 ---
 
@@ -67,4 +67,4 @@ and learn how to make a "Hello, World!" program:
 
 Otherwise, move back to the main page:
 
-<a class="menu" href="/avdl.html">avdl</a>
+<a class="menu" href="/avdl">avdl</a>

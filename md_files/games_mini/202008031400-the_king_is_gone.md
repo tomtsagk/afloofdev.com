@@ -1,4 +1,4 @@
-## <a class="menu" href="/the_king_is_gone.html">The king is gone</a>
+## <a class="menu" href="/games/the_king_is_gone">The king is gone</a>
 
 `linux`, `windows` | `keyboard`, `mouse` | `avdl`
 
