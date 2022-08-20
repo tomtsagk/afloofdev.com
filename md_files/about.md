@@ -1,26 +1,6 @@
 ## About
 
-**Dark Dimension** was created to develop content under.
-
-Creations made and published under this name, are focused on the
-artistic value, and are aimed to be made completely from scratch.
-
-This is currently a one-person team based in the UK.
-
----
-
-## Where does "Dark Dimension" come from?
-
-When I was young, I naively decided not express any negative emotions
-to other people. This wasn't ideal as after some time, they bottled up
-and needed an outlet.
-
-At some point I started expressing all those emotions through art.
-Every time I would draw a picture or develop a new
-game, they would be inspired by a negative feeling. After a while,
-there were multiple pieces of work sharing the same fantasy universe.
-
-That's when the name **Dark Dimension** was born, to describe that place.
+Indie dev, making games for fun.
 
 ---
 
@@ -63,7 +43,7 @@ e-mail: tomtsagk@darkdimension.org<br>
 
 ---
 
-## DarkDimension.org
+## afloofdev.com
 
 This site is open-source, and deployed automatically. It was made from scratch using Markdown, and some custom
 Bash scripts. Extra care has been taken to make sure this site is functional on smaller screens, like mobile phones,
@@ -71,4 +51,4 @@ but also from text-based browsers.
 
 Checkout the source code and contribute here:
 
-<a class="button" href="https://github.com/tomtsagk/darkdimension.org">Github</a>
+<a class="button" href="https://github.com/tomtsagk/afloofdev.com">Github</a>

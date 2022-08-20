@@ -9,7 +9,8 @@ margin-top: 8px;
 width: 95%;
 max-width: 1000px;
 text-align: center;
-color: #c9f;
+#color: #c9f;
+color: #f2ebb5;
 display: block !important;
 }
 
@@ -21,7 +22,8 @@ margin: 1.5%;
 margin-top: 30px;
 margin-bottom: 30px;
 height: 2px;
-background: #c9f;
+#background: #c9f;
+background: #f2ebb5;
 border: 0px;
 border-radius: 2px;
 }
@@ -155,7 +157,8 @@ padding-left: 20px;
 padding-right: 20px;
 padding-top: 4px;
 padding-bottom: 4px;
-border-left: 4px solid #c9f;
+#border-left: 4px solid #c9f;
+border-left: 4px solid #f2ebb5;
 border-radius: 8px;
 margin: 0px;
 display: block;
@@ -213,7 +216,8 @@ margin: 1.5%;
 padding: 3%;
 padding-top: 0px;
 padding-bottom: 0px;
-border: 1px solid #c9f;
+#border: 1px solid #c9f;
+border: 1px solid #f2ebb5;
 border-radius: 4px;
 }
 
@@ -233,7 +237,8 @@ justify-content: center;
 .content-grid-tile {
 background: #3335;
 text-align: left;
-border: 1px solid #c9f;
+#border: 1px solid #c9f;
+border: 1px solid #f2ebb5;
 border-radius: 4px;
 height: 400px;
 position: relative;
@@ -292,12 +297,14 @@ text-align: center;
 width: 300px;
 height: 30px;
 padding: 3px;
-border: 1px solid #c9f;
+#border: 1px solid #c9f;
+border: 1px solid #f2ebb5;
 border-radius: 4px;
 }
 
 .progress-bar {
-background: #c9f;
+#background: #c9f;
+background: #f2ebb5;
 height: 30px;
 }
 
@@ -308,7 +315,8 @@ left: 3px;
 }
 
 .dd-promo {
-border: 1px solid #c9f;
+#border: 1px solid #c9f;
+border: 1px solid #f2ebb5;
 border-radius: 4px;
 padding: 20px;
 margin: 5px;
