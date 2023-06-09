@@ -2,11 +2,12 @@
 
 ![The king is gone icon](/images/the_king_is_gone-stable-cover.png "The king is gone cover")
 
-* **Developer:** Dark Dimension
+* **Developer:** Afloofdev
 * **Release Date:** 15th of December, 2020
-* **Supported Platforms:** Linux, Windows
-* **Price:** $2.99
+* **Supported Platforms:** Linux, Windows, Android, Quest2 VR
 * **Languages:** English
+
+<a class="button" href="/privacy_policy/games/">The king is gone - Privacy Policy</a>
 
 ## Screenshots
 

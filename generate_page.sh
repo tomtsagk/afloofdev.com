@@ -1,11 +1,12 @@
 #!/bin/bash
 
 #ad="<div class='dd-promo'>Support my work<br><br>
-ad="<div class='dd-promo'>Like what you see?<br><br>
-<a href='https://ko-fi.com/I2I332LSO' target='_blank'>
-	<img height='36' style='border:0px;height:36px;'
-		src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-</a></div>"
+#ad="<div class='dd-promo'>Like what you see?<br><br>
+#<a href='https://ko-fi.com/I2I332LSO' target='_blank'>
+#	<img height='36' style='border:0px;height:36px;'
+#		src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+#</a></div>"
+ad=""
 
 #
 # source is the json file that describes a page
