@@ -35,7 +35,8 @@
 <!--<a class="button" href="https://www.patreon.com/darkdimension" title="Support me on Patreon" alt="Dark Dimension on Patreon">
 <img src="/images/social_media/patreon.png"/>
 </a>-->
-~ <i>afloofdev</i> ~ <a class="menu" href="/privacy_policy">Privacy Policy</a> |
+~ <i>afloofdev</i> ~
+<!--<a class="menu" href="/privacy_policy">Privacy Policy</a> |-->
 <a class="menu" href="/about">About</a>
 
 </body>

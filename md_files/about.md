@@ -22,13 +22,14 @@ e-mail: tomtsagk@darkdimension.org<br>
 * `ed` is the standard editor!
 * Libre software fan
 
+<!-- Ko-fi donation
 ### Like what I do? Here's how to help:
 
-<!-- Ko-fi donation -->
 <a href='https://ko-fi.com/I2I332LSO' target='_blank'>
 	<img height='36' style='border:0px;height:36px;'
 		src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 </a>
+-->
 
 ### Find me on
 
@@ -52,3 +53,7 @@ but also from text-based browsers.
 Checkout the source code and contribute here:
 
 <a class="button" href="https://github.com/tomtsagk/afloofdev.com">Github</a>
+
+---
+
+<a class="menu" href="/privacy_policy">Privacy Policy</a>

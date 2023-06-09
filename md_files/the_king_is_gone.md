@@ -7,8 +7,6 @@
 * **Supported Platforms:** Linux, Windows, Android, Quest2 VR
 * **Languages:** English
 
-<a class="button" href="/privacy_policy/games/">The king is gone - Privacy Policy</a>
-
 ## Screenshots
 
 ![The king is gone screenshot 1](/images/the_king_is_gone-screenshot-1.png "Screenshot 1")
@@ -46,3 +44,9 @@ To open a door, a puzzle is presented, where pieces of a key have to be rotated 
 <a class="button" href="https://darkdimension.itch.io/the-king-is-gone">Itch.io</a> |
 <a class="button" href="https://gamejolt.com/games/the-king-is-gone/518056">GameJolt</a> |
 <a class="button" href="https://play.google.com/store/apps/details?id=org.darkdimension.the_king_is_gone">Play Store</a>
+
+## Privacy Policy
+
+User data are handled by this game based on the privacy policy below:
+
+<a class="button" href="/privacy_policy/games/">The king is gone - Privacy Policy</a>
